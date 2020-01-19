@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="me.css">
+        <script type="text/javascript" src="data.js"></script>
+        <script type="text/javascript" src="libraries/mustache.js"></script>
+
+        <!-- <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css"> -->
+    </head>
+    <body>
+        <div class="top left" id="view">
+        </div>
+        
+    </body>
+    <script id="template" type="text/template">
+        <div class="container grid2">
+            {{#resumeData}}
+                {{#about}}
+                        <div>
+                            <div class="ptop centered">
+                                <img class="imgRound groovebordered" height="120em" src="https://avatars0.githubusercontent.com/u/2690844">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="dgrey header">{{name}}</div>
+                            <div class="lgrey t8">
+                                {{#uppercase}}{{{designation}}}{{/uppercase}}
+                            </div>
+                            
+                        </div>
+                {{/about}}
+                <div class="centered">
+                    <div class="pb1 bold">PERSONAL DETAILS</div>
+                    <div class="t8 pbhalf">Current City</div>
+                    <div class="t8">{{about.currentCity}}</div>
+                    <div class="t1">
+                        <div class="t8 bold pb1 ptopmore">CONTACT DETAILS</div>
+                        {{#about.otherLinks}}
+                            <div class="link pbhalf">
+                                <a href="{{url}}" target="_blank" class="grid3">
+                                    <span></span>
+                                    <span class="centered">
+                                        <img height="15em" src="{{logo}}"></img>
+                                    </span>
+                                    <span class="left">{{name}}</span>
+                                </a>
+                            </div>
+                        {{/about.otherLinks}}
+                    </div>
+                </div>
+                <div class="career t8">
+                    {{#projects}}
+                        <div class="fheading bold pbhalf">{{heading}}</div>
+                        
+                        {{#topics}}
+                            <div class="piped pl0 pbhalf ptop"><span class="dot">&#10687;</span>{{companyName}}</div>
+                            <div class="piped hflex bkgrlb">
+                                <div class="flex">{{designation}}</div>
+                                <div >{{duration}}</div>
+                            </div>
+                            {{#allprojects}}
+                                <div class="piped ul ptop">{{project}}</div>
+                                {{#content}}
+                                    <div class="piped brddotted description t6">{{content}}</div>
+                                {{/content}}
+                                <!-- <div class="piped brdrc">
+                                    {{#technologies}}
+                                        <span class="pill rat{{rating}}">
+                                            {{name}}
+                                        </span>
+                                    {{/technologies}}
+                                </div> -->
+                            {{/allprojects}}
+                        {{/topics}}
+                    {{/projects}}
+                    {{#education}}
+                        <div class="ptop bold">{{heading}}</div>
+                        
+                            {{#qualifications}}
+                                <div class="piped pl0"> <span class="dot">&#10687;</span>{{institute}}</div>
+                                <div class="piped hflex bkgrlb">
+                                    <div class="flex">
+                                        <div>{{degree}}</div>
+                                        <div class="t6">{{specialization}}</div>
+                                    </div>
+                                    <div >{{duration}}</div>
+                                </div>
+                            {{/qualifications}}
+
+                    {{/education}}
+                    {{#skills}}
+                        <div class="ptop bold">{{heading}}</div>
+                        
+                        <div class="pleft">
+                            {{#topics}}
+                                <div class="hflex ptop">
+                                    <div class="flex t8">{{name}}</div>
+                                    <div>
+                                        {{#scale}}
+                                            {{rating}}
+                                        {{/scale}}
+                                    </div>
+                                </div>
+                            {{/topics}}
+                        </div>
+                    {{/skills}}
+                </div>
+            {{/resumeData}}
+        </div>
+    </script>
+    <script type="text/javascript" src="script.js"></script>
+</html>
