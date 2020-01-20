@@ -247,4 +247,18 @@ body {
         padding-left: 1.3em;
         text-align: justify;
     }
+    .pcentered{
+        text-align: center;
+    }
+}
+
+@media print {
+    .pcentered{
+        padding-left: 13%;
+    }
+    .grid3{
+        display: grid;
+        grid-template-columns: 5% 10% auto;
+        grid-gap: 1.5rem;
+    }
 }
