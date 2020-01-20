@@ -25,33 +25,25 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 1rem;
 }
-.grid2{
-    display: grid;
-    grid-template-columns: 30% auto;
-    /* grid-template-columns: repeat(2, minmax(200px, 1fr)); */
-    grid-gap: 1rem;
-}
+
+
+/* .grid2>div{
+    overflow: hidden;
+} */
 .career {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: row2-start;
     grid-row-end: 4;
 }
-.grid3{
-    display: grid;
-    grid-template-columns: 5% 10% auto;
-    grid-gap: 1rem;
-}
+
 .p15{
     padding: 1.5rem;
 }
 .ptop{
     padding-top: 0.6em;
 }
-.grid2 > div.invisible{
-    background:none;
-    padding: 0.5rem;
-}
+
 body {
     margin: 1rem;
 }
@@ -114,10 +106,7 @@ body {
     font-weight: bolder;
 }
 
-.piped{
-    border-left: 1px solid lightgrey;
-    padding-left: 1em;
-}
+
 
 .pl0{
     padding-left: 0;
@@ -172,10 +161,6 @@ body {
     font-size: 2rem;
 }
 
-.dot{
-    position: relative;
-    left: -4.6px;
-}
 
 .description{
     padding-left: 1.3em;
@@ -208,4 +193,54 @@ body {
 
 .pleft{
     padding-left: 1em;
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: column;
+}
+.grid2>div{
+    text-align: center;
+    padding-top: 1em;
+}
+.piped{
+    border: 0px;
+}
+.dot{
+    display: none;
+}
+.mleft{
+    text-align: left;
+}
+@media only screen and (min-width: 500px) {
+    
+    .dot{
+        display: inline-block;
+        position: relative;
+        left: -4.6px;
+    }
+    .piped{
+        border-left: 1px solid lightgrey;
+        padding-left: 1em;
+    }
+    .grid2{
+        display: grid;
+        grid-template-columns: 30% auto;
+        /* grid-template-rows: repeat(auto-fill, min); */
+        /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+        /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+        grid-gap: 1rem;
+    }
+    .grid2>div{
+        text-align: initial;
+        padding-top: 0em;
+    }
+    .grid3{
+        display: grid;
+        grid-template-columns: 5% 10% auto;
+        grid-gap: 1rem;
+    }
+    .mleft{
+        text-align: initial;
+    }
 }
