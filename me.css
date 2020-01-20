@@ -212,12 +212,12 @@ body {
 .mleft{
     text-align: left;
 }
-@media only screen and (min-width: 500px) {
+@media all and (min-width: 500px) {
     
     .dot{
         display: inline-block;
         position: relative;
-        left: -4.6px;
+        left: -1.4em;
     }
     .piped{
         border-left: 1px solid lightgrey;
@@ -237,10 +237,14 @@ body {
     }
     .grid3{
         display: grid;
-        grid-template-columns: 5% 10% auto;
+        grid-template-columns: 20% 10% auto;
         grid-gap: 1rem;
     }
     .mleft{
         text-align: initial;
+    }
+    .description {
+        padding-left: 1.3em;
+        text-align: justify;
     }
 }
