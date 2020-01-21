@@ -14,6 +14,21 @@
         
     </body>
     <script id="template" type="text/template">
+        {{#resumeData}}
+            {{#about}}
+                <div class="fwmob whitebg vflex centered">
+                    <div class="flex2"></div>
+                    <div class="hflex flex4">
+                        <div class="flex1"></div>
+                        <div class="insetbkgr imgRound shine centered flex4" style='background-image: url("{{resumeData.about.imgurl}}")'>
+                        </div>
+                        <div class="flex1"></div>
+                    </div>
+                    <div class="flex1"></div>
+                    <div class="dgrey header centered flex2">{{name}}</div>
+                </div>
+            {{/about}}
+        {{/resumeData}}
         <div class="container grid2">
             {{#resumeData}}
                 {{#about}}

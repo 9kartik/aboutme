@@ -7,6 +7,12 @@
     var controller = { // this is object scoping
         init: function() {
             view.init();
+        },
+        hideonclick: function(){
+            view.firstIntro.addEventListener('click',
+            function(){
+                this.parentNode.removeChild(this)
+            })
         }
     };
 
@@ -28,10 +34,12 @@
     var view = {
         displayElement : undefined,
         template : undefined,
+        firstIntro :undefined,
         init: function() {
             this.displayElement = document.getElementById('view');
             this.template = document.getElementById('template').innerHTML;
             this.render();
+            this.firstIntro = view.displayElement.getElementsByClassName('fwmob')[0];
         },
 
         render: function() {
@@ -40,4 +48,5 @@
     };
 
     controller.init();
+    controller.hideonclick();
 }(resumeData));
