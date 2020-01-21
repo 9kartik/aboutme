@@ -225,6 +225,7 @@ body {
   .fwmob .imgRound{
     background-size: cover;
     background-repeat: no-repeat;
+    height: 250px;
   }
   .blackbg{
       background: black;

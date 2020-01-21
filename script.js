@@ -9,10 +9,10 @@
             view.init();
         },
         hideonclick: function(){
-            view.firstIntro.addEventListener('click',
-            function(){
-                this.parentNode.removeChild(this)
-            })
+            function eraseme(elt){
+                elt.parentNode.removeChild(elt)
+            }
+            view.firstIntro.addEventListener('touchstart', function(evt){ eraseme(this)})
         }
     };
 
