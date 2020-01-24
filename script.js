@@ -11,8 +11,15 @@
         hideonclick: function(){
             function eraseme(elt){
                 elt.parentNode.removeChild(elt)
+                window.removeEventListener('deviceorientation', this.deviceTilted)
             }
             view.firstIntro.addEventListener('touchstart', function(evt){ eraseme(this)})
+        },
+        deviceTilted : function(evt){
+            view.shine.setAttribute('style', 'transform:rotate('+ ((Math.atan2(evt.gamma, evt.beta) * 180/ Math.PI) + 30) + 'deg)')
+        },
+        ontilt: function(shiner){
+            window.addEventListener('deviceorientation', this.deviceTilted)
         }
     };
 
@@ -40,6 +47,7 @@
             this.template = document.getElementById('template').innerHTML;
             this.render();
             this.firstIntro = view.displayElement.getElementsByClassName('fwmob')[0];
+            this.shine = view.displayElement.getElementsByClassName('xshineAfter')[0];
         },
 
         render: function() {
@@ -49,4 +57,5 @@
 
     controller.init();
     controller.hideonclick();
+    controller.ontilt();
 }(resumeData));
