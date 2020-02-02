@@ -27,6 +27,16 @@ var resumeData = {
                 name : 'github.com/9kartik'
             },
             {
+                url : 'https://www.webcomponents.org/author/9kartik',
+                logo : 'https://web-components-resources.appspot.com/static/logo.svg',
+                name : 'webcomponents'
+            },
+            {
+                url : 'https://www.npmjs.com/~ka9',
+                logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnwCG1Vn7-Iky9hdTFUH78kvT7BNjrPQpsPeZ1rIubesRnKWba',
+                name : 'npm'
+            },
+            {
                 url : 'https://www.behance.net/kanine',
                 logo : 'https://www.behance.net/favicon.ico',
                 name : 'behance.net/kanine'
