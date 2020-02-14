@@ -20,6 +20,16 @@
         },
         ontilt: function(shiner){
             window.addEventListener('deviceorientation', this.deviceTilted)
+        },
+        addFavicon: function(url){
+            var favicon = document.createElement('link');
+            favicon.rel = "shortcut icon";
+            favicon.type= "image/x-icon";
+            favicon.href= url;
+            document.getElementsByTagName('head')[0].appendChild(favicon);
+        },
+        addTitle : function(name){
+            document.title = name
         }
     };
 
@@ -35,6 +45,13 @@
                 var init = ['grey','grey','grey','grey'];
                 var rate = +render(text);
                 return init.map((clr,ind) => templ(ind<rate?'black':'grey')).join('')
+            }
+        },
+        dashToDot : function(){
+            return function (text, render) {
+                var text = render(text);
+                text =  text.replace(/ - | -|- /g, '&ensp;&bull;&ensp;')
+                return text;
             }
         }
     }
@@ -58,4 +75,6 @@
     controller.init();
     controller.hideonclick();
     controller.ontilt();
+    controller.addFavicon(data.resumeData.about.imgurl);
+    controller.addTitle(data.resumeData.about.name);
 }(resumeData));

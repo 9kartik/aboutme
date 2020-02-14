@@ -64,38 +64,8 @@ var resumeData = {
                     ]
                 },
                 {
-                    project : 'Reward System integration',
-                    content : `Offering more rewards for bookings provided by our reward and payment partners.
-                                Offering a future flexible booking date at a nominal price.`,
-                    technologies : [
-                    {
-                            name: 'ReactJS (PWA)'
-                    },    
-                    {
-                        name: 'javascript (Desktop)'
-                    },
-                    {
-                        name: 'JSP (Desktop)'
-                    },
-                    ]
-                },
-                {
-                    project : 'Banking Integration',
-                    content : 'Integrating banks like ADCB with their redemption scenarios',
-                    technologies : [
-                        {
-                            name: 'javascript'
-                        },
-                        {
-                            name: 'JSP (Desktop)'
-                        },
-                        {
-                            name: 'Backbone js'
-                        },
-                        {
-                            name: 'lodash'
-                        }
-                    ]
+                    project : 'Quick offer updation',
+                    content : 'Reduced a one day deployment procedure to a 10min procedure utlizing the Amazon S3 buckets'
                 },
 
                 {
@@ -161,7 +131,7 @@ var resumeData = {
                 allprojects:[
                     {
                         project : 'Linesight [Border Security]',
-                        content : `Risk analysis using machine learning and related entities. I built the interface using mainly ArgularJS , utilizing directives to create a lot of reusable components. It involved user profile based access. Interacting with graph db for the related data and plotting it using keylines and AngularJS. ▪ Linesight mongodb aggregation setup [using RestHeart]: complex aggregations in mongodb like group flights by every x minutes`,
+                        content : `Risk analysis using machine learning and related entities. I built the interface using mainly AngularJS , utilizing directives to create a lot of reusable components. It involved user profile based access. Interacting with graph db for the related data and plotting it using keylines and AngularJS - Linesight mongodb aggregation setup [using RestHeart]: complex aggregations in mongodb like group flights by every x minutes`,
                         technologies : [
                         {
                             name: 'AngularJS'

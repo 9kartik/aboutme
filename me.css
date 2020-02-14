@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap'); */
 *{
     font-family: 'Inconsolata', monospace;
 }
@@ -99,6 +100,9 @@ body {
 .t6{
     font-size: 0.6rem;
 }
+.t7{
+    font-size: 0.7rem;
+}
 .t1{
     font-size: 1.5rem;
 }
@@ -139,6 +143,10 @@ body {
 
 .ul{
     text-decoration: underline;
+}
+
+.tCell {
+    display: table-cell;
 }
 
 .brdrc{
@@ -205,6 +213,12 @@ body {
 }
 .piped{
     border: 0px;
+}
+
+.bbdashed{
+    /* border-bottom: 1px dotted lightgrey; */
+    text-decoration-line: underline;
+    /* text-decoration-style: dashed; */
 }
 .dot{
     display: none;
@@ -340,7 +354,9 @@ body {
     .dot{
         display: inline-block;
         position: relative;
-        left: -1.4em;
+        left: -1.05rem;
+        background: #fff;
+        color: #555;
     }
     .piped{
         border-left: 1px solid lightgrey;
@@ -381,7 +397,21 @@ body {
     }
     
 }
-
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .dstick-0-0{
+        position: sticky;
+        left: 0;
+        top: 0;
+    }
+    .dstick-0-10{
+        position: sticky;
+        left: 0;
+        top: 10em;
+    }
+    .pr1{
+        padding-right: 1em;
+    }
+}
 @media print {
     .pcentered{
         padding-left: 13%;
@@ -390,5 +420,9 @@ body {
         display: grid;
         grid-template-columns: 5% 10% auto;
         grid-gap: 1.5rem;
+    }
+
+    .pr1{
+        padding-right: 1em;
     }
 }
