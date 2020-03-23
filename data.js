@@ -40,6 +40,16 @@ var resumeData = {
                 url : 'https://www.behance.net/kanine',
                 logo : 'https://www.behance.net/favicon.ico',
                 name : 'behance.net/kanine'
+            },
+            {
+                url : 'https://stackoverflow.com/users/3335941/kanine',
+                logo : 'https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico',
+                name : 'stackoverflow'
+            },
+            {
+                url : 'https://c00dles.blogspot.com/',
+                logo : 'http://www.blogger.com/favicon.ico',
+                name : 'Computational Arts'
             }
         ]
     },
