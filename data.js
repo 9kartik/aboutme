@@ -2,8 +2,8 @@ var resumeData = {
     'about' :{
         name : 'Kartik Maurya',
         email : 'mauryakartik@gmail.com',
-        designation : 'Front-end Engineer',
-        currentCity : 'Bengaluru',
+        designation : 'Software Engineer (Front-end)',
+        currentCity : 'Bengaluru, India',
         imgurl: 'https://avatars0.githubusercontent.com/u/2690844',
         otherLinks :[
             {
@@ -58,7 +58,7 @@ var resumeData = {
         topics : [
             {
                 designation : 'UI Engineer',
-                companyName : 'Cleartrip',
+                companyName : 'Cleartrip [Bengaluru, India]',
                 duration : '2017 May-Present',
                 allprojects:[
                 {
@@ -136,7 +136,7 @@ var resumeData = {
             },
             {
                 designation : 'Software Engineer',
-                companyName: 'Unisys',
+                companyName: 'Unisys [Bengaluru, India]',
                 duration: '2014 August - 2017 May',
                 allprojects:[
                     {
@@ -203,7 +203,7 @@ var resumeData = {
         heading: 'Education',
         qualifications:[
             {
-                institute: 'Manipal Institute of Technology (Udupi)',
+                institute: 'Manipal Institute of Technology (Udupi, Karnataka, India)',
                 duration: '2010 - 2014',
                 degree: 'Bachelor of Engineering (BE)',
                 specialization: 'Computer Science and Engineering'
@@ -211,7 +211,7 @@ var resumeData = {
         ]
     },
     'skills' : {
-        heading : 'Front End Skills',
+        heading : 'Skills',
         topics : [
             {
                 name : 'Front-end Web Design',
