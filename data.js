@@ -59,7 +59,12 @@ var resumeData = {
             {
                 url : 'https://chrome.google.com/webstore/detail/alter-videos/ncebpefkldaiogkbhabbcgdoadfhpehj',
                 logo : 'http://icons.iconarchive.com/icons/carlosjj/google-jfk/128/chrome-web-store-icon.png',
-                name : 'Alter Videos'
+                name : 'Chrome Extension [Alter Videos]'
+            },
+            {
+                url : 'https://play.google.com/store/apps/details?id=com.aakaar.cvt&hl=en',
+                logo : 'https://img.icons8.com/bubbles/100/000000/google-play.png',
+                name : 'CVT [Android Game]'
             }
         ]
     },
