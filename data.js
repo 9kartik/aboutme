@@ -7,13 +7,18 @@ var resumeData = {
         imgurl: 'https://avatars0.githubusercontent.com/u/2690844',
         otherLinks :[
             {
-                url : '',
+                url : 'mailto:someone@example.com?Subject=Mailing%through%your%resume%link',
                 logo : 'https://img.icons8.com/material-two-tone/344/important-mail.png',
                 name : 'mauryakartik@gmail.com'
             },
             {
-                url : '',
-                logo : 'https://img.icons8.com/android/24/000000/cell-phone.png',
+                url : 'tel:+918310387321',
+                logo : 'https://img.icons8.com/android/24/FF0045/cell-phone.png',
+                name : '+91-8310387321'
+            },
+            {
+                url : 'tel:+91-9535680359',
+                logo : 'https://img.icons8.com/android/24/FF5500/cell-phone.png',
                 name : '+91-9535680359'
             },
             {
@@ -50,6 +55,11 @@ var resumeData = {
                 url : 'https://c00dles.blogspot.com/',
                 logo : 'http://www.blogger.com/favicon.ico',
                 name : 'Computational Arts'
+            },
+            {
+                url : 'https://chrome.google.com/webstore/detail/alter-videos/ncebpefkldaiogkbhabbcgdoadfhpehj',
+                logo : 'http://icons.iconarchive.com/icons/carlosjj/google-jfk/128/chrome-web-store-icon.png',
+                name : 'Alter Videos'
             }
         ]
     },
