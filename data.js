@@ -6,6 +6,8 @@ var resumeData = {
         currentCity : 'Bengaluru, India',
         resumeLink: 'https://9kartik.github.io/resume',
         imgurl: 'https://avatars0.githubusercontent.com/u/2690844',
+        metaImg: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/48e9e372725507.5bf18ce760f81.png',
+        metaDescription: 'Kartik Maurya (Software Engineer - Front End)',
         otherLinks :[
             {
                 url : 'mailto:someone@example.com?Subject=Mailing through your resume link',
