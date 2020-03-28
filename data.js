@@ -4,6 +4,7 @@ var resumeData = {
         email : 'mauryakartik@gmail.com',
         designation : 'Software Engineer (Front-end)',
         currentCity : 'Bengaluru, India',
+        resumeLink: 'https://9kartik.github.io/resume',
         imgurl: 'https://avatars0.githubusercontent.com/u/2690844',
         otherLinks :[
             {

@@ -18,13 +18,13 @@
             {{#about}}
                 <div class="fwmob blackbg vflex centered">
                     <div class="flex2"></div>
-                    <div class="hflex flex4">
-                        <div class="flex1"></div>
-                        <div class="insetbkgr imgRound xshine centered" data-content="rotate(0 deg)" style='background-image: url("{{resumeData.about.imgurl}}")'>
-                            <div class="xshineAfter"></div>
+                        <div class="hflex flex4">
+                            <div class="flex1"></div>
+                            <div class="insetbkgr imgRound xshine centered" data-content="rotate(0 deg)" style='background-image: url("{{resumeData.about.imgurl}}")'>
+                                <div class="xshineAfter"></div>
+                            </div>
+                            <div class="flex1"></div>
                         </div>
-                        <div class="flex1"></div>
-                    </div>
                     <div class="flex1"></div>
                     <div class="dgrey header centered flex2">&#9666; {{name}} &#9656;</div>
                 </div>
@@ -35,7 +35,9 @@
                 {{#about}}
                         <div class="dstick-0-0">
                             <div class="ptop centered">
-                                <img class="imgRound groovebordered" height="120em" src="{{imgurl}}">
+                                {{#resumeLink}}<a href={{resumeLink}}>{{/resumeLink}}
+                                    <img class="imgRound groovebordered" height="120em" src="{{imgurl}}">
+                                {{#resumeLink}}</a>{{/resumeLink}}
                             </div>
                         </div>
                         <div>
