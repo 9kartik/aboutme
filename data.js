@@ -8,7 +8,7 @@ var resumeData = {
         imgurl: 'https://avatars0.githubusercontent.com/u/2690844',
         otherLinks :[
             {
-                url : 'mailto:someone@example.com?Subject=Mailing%through%your%resume%link',
+                url : 'mailto:someone@example.com?Subject=Mailing through your resume link',
                 logo : 'https://img.icons8.com/material-two-tone/344/important-mail.png',
                 name : 'mauryakartik@gmail.com'
             },
