@@ -7,5 +7,9 @@ jobs:
     name: Make meta tags
     steps:
       # Use the output from the `hello` step
-      - name: Make meta tags
-        run: node metaadder.js
+      - uses: actions/checkout@v2
+      - name: Setup node 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - run: node metaadder.js
