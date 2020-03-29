@@ -6,13 +6,14 @@ jobs:
     name: Make meta tags
     steps:
       # Use the output from the `hello` step
-      - uses: actions/checkout@v2
       - name: Setup node 12
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
       - run: node metaadder.js
+      
       - name: Commit and push files
+        uses: actions/checkout@v2
       - run: |
         git add index.html
         git commit -m "generate meta tags"
