@@ -20,6 +20,6 @@ jobs:
           git add /home/runner/work/resume/resume/index.html
           git commit -m "open graph updates"
       - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
