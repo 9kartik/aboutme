@@ -17,6 +17,7 @@ jobs:
       - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add index.html
+          git add /home/runner/work/resume/resume/index.html
           git commit -m "open graph updates"
           git push origin gh-pages
+          git remote --v
