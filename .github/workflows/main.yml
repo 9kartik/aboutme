@@ -14,8 +14,6 @@ jobs:
       - run: node metaadder.js
       - name: Commit and push files
       - run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
         git add index.html
         git commit -m "generate meta tags"
         git push origin gh-pages
