@@ -19,7 +19,4 @@ jobs:
           git config --local user.name "GitHub Action"
           git add index.html
           git commit -m "open graph updates"
-      - name: Push changes
-        uses: 9kartik/resume@gh-pages
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          git push origin gh-pages
