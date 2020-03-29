@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: 12.x
       - run: node metaadder.js
-    - name: Commit and push files
+      - name: Commit and push files
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
