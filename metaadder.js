@@ -19,6 +19,7 @@ fileReader('./data.js').then(fileData => {
             console.log(__filename)
             console.log(newHTML);
             fs.writeFile('./index.html', new Uint8Array(Buffer.from(newHTML)), ()=>{console.log('wrote file!')})
+            fs.writeFile('./Readme.md', new Uint8Array(Buffer.from('This is a simple resume maker at' + new Date())), ()=>{console.log('wrote ReadMe!')})
         }
     )
         
