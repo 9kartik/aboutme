@@ -6,15 +6,19 @@ jobs:
     name: Make meta tags
     steps:
       # Use the output from the `hello` step
+      - uses: actions/checkout@v2
       - name: Setup node 12
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
       - run: node metaadder.js
-
-      - name: Commit and push files
-        uses: actions/checkout@v2
+      - name: Commit files
       - run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add index.html
-          git commit -m "generate meta tags"
-          git push origin gh-pages
+          git commit -m "open graph updates"
+      - name: Push changes
+        uses: 9kartik/resume@gh-pages
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
