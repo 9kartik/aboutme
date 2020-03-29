@@ -1,0 +1,11 @@
+on: [push]
+
+jobs:
+  index_maker:
+    runs-on: ubuntu-latest
+    using: 'node13'
+    name: Make meta tags
+    steps:
+      # Use the output from the `hello` step
+      - name: Make meta tags
+        run: node metaadder.js
