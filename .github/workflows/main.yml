@@ -15,8 +15,6 @@ jobs:
       - name: Commit files
         uses: actions/checkout@v2
       - run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add .
           git commit -m "open graph updates"
           git push origin gh-pages
