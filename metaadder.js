@@ -15,7 +15,8 @@ fileReader('./data.js').then(fileData => {
     fileReader('./index.html').then( htmlData => {
             const newHTML = htmlData.replace('<!--open graph items-->', 
                 templaters('og:image', resumeData.about.metaImg) + ' ' + 
-                templaters('og:description', resumeData.about.metaDescription))
+                templaters('og:description', resumeData.about.metaDescription) + ' ' +
+                templaters('og:url', resumeData.about.resumeLink))
             console.log(__filename)
             console.log(newHTML);
             fs.writeFile('./index.html', new Uint8Array(Buffer.from(newHTML)), ()=>{console.log('wrote file!')})
