@@ -11,10 +11,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - run: node metaadder.js
-      - name: Commit files
-        uses: actions/checkout@v2
       - run: |
+          node metaadder.js
+          git config --local user.email "mauryakartik@gmail.com"
+          git config --local user.name "Kartik Maurya"
           git add .
           git commit -m "open graph updates"
           git push origin gh-pages
