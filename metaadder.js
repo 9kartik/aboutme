@@ -13,15 +13,12 @@ const fileReader = function (path){
 fileReader('./data.js').then(fileData => {
     eval(fileData);
     fileReader('./index.html').then( htmlData => {
-            const newHTML = htmlData.replace('<!--open graph items-->', 
-                templaters('og:image', resumeData.about.metaImg) + ' ' + 
-                templaters('og:description', resumeData.about.metaDescription) + ' ' +
-                templaters('og:url', resumeData.about.resumeLink))
-            console.log(__filename)
-            console.log(newHTML);
-            fs.writeFile('./index.html', new Uint8Array(Buffer.from(newHTML)), ()=>{console.log('wrote file!')})
-            fs.writeFile('./Readme.md', new Uint8Array(Buffer.from('This is a simple resume maker at' + new Date())), ()=>{console.log('wrote ReadMe!')})
+            if(resumeData.about.metaTags)
+            {
+                const newHTML = htmlData.replace(/(\<meta property[^\>]+\>\s*)+/, 
+                                resumeData.about.metaTags.map(({property, value}) => templaters(property,value)).join('\n\t\t')+'\n\t\t')
+                fs.writeFile('./index.html', new Uint8Array(Buffer.from(newHTML)), ()=>{console.log('wrote file!')})
+            }
         }
     )
-        
 })

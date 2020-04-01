@@ -6,8 +6,28 @@ var resumeData = {
         currentCity : 'Bengaluru, India',
         resumeLink: 'https://9kartik.github.io/resume',
         imgurl: 'https://avatars0.githubusercontent.com/u/2690844',
-        metaImg: 'https://lh3.googleusercontent.com/-TioHMda1bus/AAAAAAAAAAI/AAAAAAAAI4w/AAKWJJPEXaiQiDi1rOIaIKScqrvVU--Yhw.CMID/s400-c/photo.jpg',
-        metaDescription: 'Kartik Maurya (Software Engineer - Front End)',
+        metaTags : [
+            {
+                property : 'og:image',
+                value : 'https://lh3.googleusercontent.com/-TioHMda1bus/AAAAAAAAAAI/AAAAAAAAI4w/AAKWJJPEXaiQiDi1rOIaIKScqrvVU--Yhw.CMID/s400-c/photo.jpg'
+            },
+            {
+                property : 'og:description',
+                value : 'Kartik Maurya (Software Engineer - Front End)'
+            },
+            {
+                property : 'og:url',
+                value : 'https://9kartik.github.io/resume'
+            },
+            {
+                property : 'og:type',
+                value : 'website'
+            },
+            {
+                property : 'og:title',
+                value : 'Kartik Maurya - Resume'
+            }
+        ],
         otherLinks :[
             {
                 url : 'mailto:someone@example.com?Subject=Mailing through your resume link',
