@@ -2,7 +2,7 @@ var resumeData = {
     'about' :{
         name : 'Kartik Maurya',
         email : 'mauryakartik@gmail.com',
-        designation : 'Software Engineer (Front-end)',
+        designation : 'Software Engineer',
         currentCity : 'Bengaluru, India',
         resumeLink: 'https://9kartik.github.io/resume',
         imgurl: 'https://avatars0.githubusercontent.com/u/2690844',
@@ -13,7 +13,7 @@ var resumeData = {
             },
             {
                 property : 'og:description',
-                value : 'Kartik Maurya (Software Engineer - Front End)'
+                value : 'Kartik Maurya (Software Engineer)'
             },
             {
                 property : 'og:url',
