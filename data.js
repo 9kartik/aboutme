@@ -28,7 +28,7 @@ var resumeData = {
                 value : 'Kartik Maurya\'s - Professional Journey'
             }
         ],
-        otherLinks :[
+        contactLinks:[
             {
                 url : 'mailto:someone@example.com?Subject=Mailing through your resume link',
                 logo : 'https://img.icons8.com/material-two-tone/344/important-mail.png',
@@ -43,7 +43,9 @@ var resumeData = {
                 url : 'tel:+91-9535680359',
                 logo : 'https://img.icons8.com/android/24/FF5500/cell-phone.png',
                 name : '+91-9535680359'
-            },
+            }
+        ],
+        otherLinks :[
             {
                 url : 'https://www.linkedin.com/in/kartik-maurya-692aa892/',
                 logo : 'https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg',

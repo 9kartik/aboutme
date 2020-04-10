@@ -59,8 +59,22 @@
                     <div class="pb1 bold pcentered">PERSONAL DETAILS</div>
                     <div class="t8 pbhalf pcentered">Current City</div>
                     <div class="t8 pcentered">{{about.currentCity}}</div>
-                    <div class="t1">
+                    <div class="t1 printShow">
                         <div class="t8 bold pb1 ptopmore pcentered">CONTACT DETAILS</div>
+                        {{#about.contactLinks}}
+                            <div class="link pbhalf">
+                                <a href="{{url}}" target="_blank" class="grid3">
+                                    <span></span>
+                                    <span class="centered">
+                                        <img height="15em" src="{{logo}}"></img>
+                                    </span>
+                                    <span class="left">{{name}}</span>
+                                </a>
+                            </div>
+                        {{/about.contactLinks}}
+                    </div>
+                    <div class="t1">
+                        <div class="t8 bold pbhalf ptoponehalf pcentered">PROJECTS</div>
                         {{#about.otherLinks}}
                             <div class="link pbhalf">
                                 <a href="{{url}}" target="_blank" class="grid3">

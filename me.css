@@ -169,6 +169,9 @@ body {
     font-size: 2rem;
 }
 
+.ptoponehalf{
+    padding-top: 1.5rem;
+}
 
 .description{
     padding-left: 1.3em;
@@ -227,6 +230,9 @@ body {
     text-align: left;
 }
 
+.printShow{
+    display: none;
+}
 
   .fwmob{
     position: absolute;
@@ -424,5 +430,11 @@ body {
 
     .pr1{
         padding-right: 1em;
+    }
+    .printShow{
+        display: block;
+    }
+    .ptoponehalf{
+        padding-top: 0.5rem;
     }
 }
