@@ -25,7 +25,7 @@ var resumeData = {
             },
             {
                 property : 'og:title',
-                value : 'Kartik Maurya\'s - Resume'
+                value : 'Kartik Maurya\'s - Professional Journey'
             }
         ],
         otherLinks :[
