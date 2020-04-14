@@ -99,7 +99,7 @@ var resumeData = {
             {
                 designation : 'UI Engineer',
                 companyName : 'Cleartrip [Bengaluru, India]',
-                duration : '2017 May-Present',
+                duration : '2017 May-2020 March',
                 allprojects:[
                 {
                     project : 'Site Revamp to React',
