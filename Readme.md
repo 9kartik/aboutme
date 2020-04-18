@@ -1,1 +1,7 @@
-This is a simple resume maker atTue Mar 31 2020 16:03:25 GMT+0000 (Coordinated Universal Time)
+To use this,
+1. fork this repo
+2. Switch to the gh-pages branch 
+3. 'Carefully' update the data.js file.  
+
+This would generate a responsive 'aboutme' website, hosted at https://(YourGithubName).github.io/aboutme
+Supports mobile view, desktop view and a separate print view (just take a print and save as pdf)
