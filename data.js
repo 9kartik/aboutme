@@ -78,12 +78,12 @@ var resumeData = {
             },
             {
                 url : 'https://c00dles.blogspot.com/',
-                logo : 'http://www.blogger.com/favicon.ico',
+                logo : 'https://www.blogger.com/favicon.ico',
                 name : 'Computational Arts'
             },
             {
                 url : 'https://chrome.google.com/webstore/detail/alter-videos/ncebpefkldaiogkbhabbcgdoadfhpehj',
-                logo : 'http://icons.iconarchive.com/icons/carlosjj/google-jfk/128/chrome-web-store-icon.png',
+                logo : 'https://icons.iconarchive.com/icons/carlosjj/google-jfk/16/chrome-web-store-icon.png',
                 name : 'Chrome Extension [Alter Videos]'
             },
             {
