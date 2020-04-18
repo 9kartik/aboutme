@@ -274,6 +274,18 @@ body {
       flex: 4;
   }
 
+.forker{
+    background-image: url('https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149');
+    position: fixed;
+    width:149px;
+    height:149px;
+    right: 0;
+    top: 0;
+    filter: opacity(0.6)
+}
+.forker:hover{
+    filter: opacity(1);
+}
  /**
  * Icon
  */
@@ -419,6 +431,9 @@ body {
     }
 }
 @media print {
+    .forker{
+        display: none;
+    }
     .pcentered{
         padding-left: 13%;
     }
