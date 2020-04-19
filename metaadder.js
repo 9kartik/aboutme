@@ -12,11 +12,13 @@ const fileReader = function (path){
                     }
 fileReader('./data.js').then(fileData => {
     eval(fileData);
+    var ts = +new Date;
     fileReader('./index.html').then( htmlData => {
             if(resumeData.about.metaTags)
             {
                 const newHTML = htmlData.replace(/(\<meta property[^\>]+\>\s*)+/, 
                                 resumeData.about.metaTags.map(({property, value}) => templaters(property,value)).join('\n\t\t')+'\n\t\t')
+                                .replace(/\?v=[^"]*/g, '?v='+ ts)
                 fs.writeFile('./index.html', new Uint8Array(Buffer.from(newHTML)), ()=>{console.log('wrote file!')})
             }
         }
