@@ -16,9 +16,9 @@ jobs:
       - name: HTML to PDF
         uses: fifsky/html-to-pdf-action@v0.0.2
         with:
-          htmlFile: ./index.html
-          outputFile: ./aboutme.pdf
-          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+          htmlFile: index.html
+          outputFile: aboutme.pdf
+          pdfOptions: '{"format": "A4", "margin": {"top": "0mm", "left": "5mm", "right": "0mm", "bottom": "5mm"}}'
       - run: |
           git config --local user.email "mauryakartik@gmail.com"
           git config --local user.name "Kartik Maurya"
