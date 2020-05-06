@@ -18,3 +18,10 @@ jobs:
           git add .
           git commit -m "open graph updates"
           git push origin gh-pages
+      - name: HTML to PDF
+        uses: fifsky/html-to-pdf-action@v0.0.2
+        with:
+          htmlFile: ./index.html
+          outputFile: ./aboutme.pdf
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+
