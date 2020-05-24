@@ -1,0 +1,22 @@
+on: [push]
+
+jobs:
+  index_maker:
+    runs-on: ubuntu-latest
+    name: Make meta tags
+    steps:
+      # Use the output from the `hello` step
+      - uses: actions/checkout@v2
+      - name: Setup node 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - run: |
+          node metaadder.js
+          git config --local user.email "mauryakartik@gmail.com"
+          git config --local user.name "Kartik Maurya"
+          git add .
+          git commit -m "open graph updates"
+          git push origin gh-pages
+      - run: |
+          node screenshot.js hello

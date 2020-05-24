@@ -1,0 +1,22 @@
+{
+  "name": "aboutme",
+  "version": "1.0.0",
+  "description": "To use this, 1. fork this repo <<<<<<< HEAD 2. Switch to the gh-pages branch 3. 'Carefully' update the data.js file   ======= 2. Switch to the gh-pages branch  3. 'Carefully' update the data.js file.   >>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9kartik/aboutme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9kartik/aboutme/issues"
+  },
+  "homepage": "https://github.com/9kartik/aboutme#readme",
+  "dependencies": {
+    "puppeteer": "^3.1.0"
+  }
+}

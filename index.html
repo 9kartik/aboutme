@@ -1,6 +1,7 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
+<<<<<<< HEAD
         <link rel="stylesheet" href="me.css">
         <script type="text/javascript" src="data.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.1.0/mustache.js"></script>
@@ -9,17 +10,62 @@
         <!-- <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css"> -->
     </head>
     <body>
+=======
+        <link rel="stylesheet" href="me.css?v=1588765097933">
+        <script type="text/javascript" src="data.js?v=1588765097933"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.1.0/mustache.js"></script>
+        <script type="text/javascript" defer src="script.js?v=1588765097933"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta property="og:image" content="https://lh3.googleusercontent.com/-TioHMda1bus/AAAAAAAAAAI/AAAAAAAAI4w/AAKWJJPEXaiQiDi1rOIaIKScqrvVU--Yhw.CMID/s400-c/photo.jpg"/>
+		<meta property="og:description" content="Kartik Maurya (Software Engineer)"/>
+		<meta property="og:url" content="https://9kartik.github.io/resume"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="Kartik Maurya's - Professional Journey"/>
+		<!-- <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css"> -->
+    </head>
+    <body>
+        <a href="https://github.com/9kartik/aboutme" class="forker"></a>
+>>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
         <div class="top left" id="view">
         </div>
         
     </body>
     <script id="template" type="text/template">
+<<<<<<< HEAD
         <div class="container grid2">
             {{#resumeData}}
                 {{#about}}
                         <div>
                             <div class="ptop centered">
                                 <img class="imgRound groovebordered" height="120em" src="{{imgurl}}">
+=======
+        {{#resumeData}}
+            {{#about}}
+                <meta property="og:image" content='{{metaImg}}'/>
+                <meta name="description" content='{{metaDescription}}' />
+                <div class="fwmob blackbg vflex centered">
+                    <div class="flex2"></div>
+                        <div class="hflex flex4">
+                            <div class="flex1"></div>
+                            <div class="insetbkgr imgRound xshine centered" data-content="rotate(0 deg)" style='background-image: url("{{resumeData.about.imgurl}}")'>
+                                <div class="xshineAfter"></div>
+                            </div>
+                            <div class="flex1"></div>
+                        </div>
+                    <div class="flex1"></div>
+                    <div class="dgrey header centered flex2">&#9666; {{name}} &#9656;</div>
+                </div>
+            {{/about}}
+        {{/resumeData}}
+        <div class="container grid2">
+            {{#resumeData}}
+                {{#about}}
+                        <div class="dstick-0-0">
+                            <div class="ptop centered">
+                                {{#resumeLink}}<a href={{resumeLink}}>{{/resumeLink}}
+                                    <img class="imgRound groovebordered" height="120em" src="{{imgurl}}">
+                                {{#resumeLink}}</a>{{/resumeLink}}
+>>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
                             </div>
                         </div>
                         <div>
@@ -30,12 +76,35 @@
                             
                         </div>
                 {{/about}}
+<<<<<<< HEAD
                 <div class="centered">
                     <div class="pb1 bold">PERSONAL DETAILS</div>
                     <div class="t8 pbhalf">Current City</div>
                     <div class="t8">{{about.currentCity}}</div>
                     <div class="t1">
                         <div class="t8 bold pb1 ptopmore">CONTACT DETAILS</div>
+=======
+                <div class="centered dstick-0-10">
+                    <div class="pb1 bold pcentered">PERSONAL DETAILS</div>
+                    <div class="t8 pbhalf pcentered">Current City</div>
+                    <div class="t8 pcentered">{{about.currentCity}}</div>
+                    <div class="t1 printShow">
+                        <div class="t8 bold pb1 ptopmore pcentered">CONTACT DETAILS</div>
+                        {{#about.contactLinks}}
+                            <div class="link pbhalf">
+                                <a href="{{url}}" target="_blank" class="grid3">
+                                    <span></span>
+                                    <span class="centered">
+                                        <img height="15em" src="{{logo}}"></img>
+                                    </span>
+                                    <span class="left">{{name}}</span>
+                                </a>
+                            </div>
+                        {{/about.contactLinks}}
+                    </div>
+                    <div class="t1">
+                        <div class="t8 bold pbhalf ptoponehalf pcentered">Other Links</div>
+>>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
                         {{#about.otherLinks}}
                             <div class="link pbhalf">
                                 <a href="{{url}}" target="_blank" class="grid3">
@@ -54,15 +123,25 @@
                         <div class="fheading bold pbhalf">{{heading}}</div>
                         
                         {{#topics}}
+<<<<<<< HEAD
                             <div class="piped pl0 pbhalf ptop"><span class="dot">&#10687;</span>{{companyName}}</div>
+=======
+                            <div class="piped pl0 pbhalf ptop"><span class="dot">&bull;</span>{{companyName}}</div>
+>>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
                             <div class="piped hflex bkgrlb">
                                 <div class="flex mleft">{{designation}}</div>
                                 <div >{{duration}}</div>
                             </div>
                             {{#allprojects}}
+<<<<<<< HEAD
                                 <div class="piped ul ptop">{{project}}</div>
                                 {{#content}}
                                     <div class="piped brddotted description t6">{{content}}</div>
+=======
+                                <div class="piped ptop tCell bbdashed">{{project}}</div>
+                                {{#content}}
+                                    <div class="piped brddotted description t7 pr1">{{#dashToDot}}{{content}}{{/dashToDot}}</div>
+>>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
                                 {{/content}}
                                 <!-- <div class="piped brdrc">
                                     {{#technologies}}
@@ -78,11 +157,19 @@
                         <div class="ptop bold pb1">{{heading}}</div>
                         
                             {{#qualifications}}
+<<<<<<< HEAD
                                 <div class="piped pl0 pbhalf"> <span class="dot">&#10687;</span>{{institute}}</div>
                                 <div class="piped hflex bkgrlb">
                                     <div class="flex mleft">
                                         <div>{{degree}}</div>
                                         <div class="t6">{{specialization}}</div>
+=======
+                                <div class="piped pl0 pbhalf"> <span class="dot">&bull;</span>{{institute}}</div>
+                                <div class="piped hflex bkgrlb">
+                                    <div class="flex mleft">
+                                        <div>{{degree}}</div>
+                                        <div class="t8">{{specialization}}</div>
+>>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
                                     </div>
                                     <div >{{duration}}</div>
                                 </div>
@@ -109,5 +196,9 @@
             {{/resumeData}}
         </div>
     </script>
+<<<<<<< HEAD
     <script type="text/javascript" src="script.js"></script>
 </html>
+=======
+</html>
+>>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43

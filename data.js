@@ -2,20 +2,57 @@ var resumeData = {
     'about' :{
         name : 'Kartik Maurya',
         email : 'mauryakartik@gmail.com',
+<<<<<<< HEAD
         designation : 'Front-end Engineer',
         currentCity : 'Bengaluru',
         imgurl: 'https://avatars0.githubusercontent.com/u/2690844',
         otherLinks :[
+=======
+        designation : 'Software Engineer',
+        currentCity : 'Bengaluru, India',
+        resumeLink: 'https://9kartik.github.io/resume',
+        imgurl: 'https://avatars0.githubusercontent.com/u/2690844',
+        metaTags : [
             {
-                url : '',
+                property : 'og:image',
+                value : 'https://lh3.googleusercontent.com/-TioHMda1bus/AAAAAAAAAAI/AAAAAAAAI4w/AAKWJJPEXaiQiDi1rOIaIKScqrvVU--Yhw.CMID/s400-c/photo.jpg'
+            },
+            {
+                property : 'og:description',
+                value : 'Kartik Maurya (Software Engineer)'
+            },
+            {
+                property : 'og:url',
+                value : 'https://9kartik.github.io/resume'
+            },
+>>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
+            {
+                property : 'og:type',
+                value : 'website'
+            },
+            {
+                property : 'og:title',
+                value : 'Kartik Maurya\'s - Professional Journey'
+            }
+        ],
+        contactLinks:[
+            {
+                url : 'mailto:someone@example.com?Subject=Mailing through your resume link',
                 logo : 'https://img.icons8.com/material-two-tone/344/important-mail.png',
                 name : 'mauryakartik@gmail.com'
             },
             {
-                url : '',
-                logo : 'https://img.icons8.com/android/24/000000/cell-phone.png',
-                name : '+91-9535680359'
+                url : 'tel:+918310387321',
+                logo : 'https://img.icons8.com/android/24/FF0045/cell-phone.png',
+                name : '+91-8310387321'
             },
+            {
+                url : 'tel:+91-9535680359',
+                logo : 'https://img.icons8.com/android/24/FF5500/cell-phone.png',
+                name : '+91-9535680359'
+            }
+        ],
+        otherLinks :[
             {
                 url : 'https://www.linkedin.com/in/kartik-maurya-692aa892/',
                 logo : 'https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg',
@@ -27,9 +64,39 @@ var resumeData = {
                 name : 'github.com/9kartik'
             },
             {
+                url : 'https://www.webcomponents.org/author/9kartik',
+                logo : 'https://web-components-resources.appspot.com/static/logo.svg',
+                name : 'webcomponents'
+            },
+            {
+                url : 'https://www.npmjs.com/~ka9',
+                logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnwCG1Vn7-Iky9hdTFUH78kvT7BNjrPQpsPeZ1rIubesRnKWba',
+                name : 'npm'
+            },
+            {
                 url : 'https://www.behance.net/kanine',
                 logo : 'https://www.behance.net/favicon.ico',
                 name : 'behance.net/kanine'
+            },
+            {
+                url : 'https://stackoverflow.com/users/3335941/kanine',
+                logo : 'https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico',
+                name : 'stackoverflow'
+            },
+            {
+                url : 'https://c00dles.blogspot.com/',
+                logo : 'https://www.blogger.com/favicon.ico',
+                name : 'Computational Arts'
+            },
+            {
+                url : 'https://chrome.google.com/webstore/detail/alter-videos/ncebpefkldaiogkbhabbcgdoadfhpehj',
+                logo : 'https://icons.iconarchive.com/icons/carlosjj/google-jfk/16/chrome-web-store-icon.png',
+                name : 'Chrome Extension [Alter Videos]'
+            },
+            {
+                url : 'https://play.google.com/store/apps/details?id=com.aakaar.cvt&hl=en',
+                logo : 'https://img.icons8.com/bubbles/100/000000/google-play.png',
+                name : 'CVT [Android Game]'
             }
         ]
     },
@@ -38,8 +105,8 @@ var resumeData = {
         topics : [
             {
                 designation : 'UI Engineer',
-                companyName : 'Cleartrip',
-                duration : '2017 May-Present',
+                companyName : 'Cleartrip [Bengaluru, India]',
+                duration : '2017 May-2020 March',
                 allprojects:[
                 {
                     project : 'Site Revamp to React',
@@ -54,38 +121,8 @@ var resumeData = {
                     ]
                 },
                 {
-                    project : 'Reward System integration',
-                    content : `Offering more rewards for bookings provided by our reward and payment partners.
-                                Offering a future flexible booking date at a nominal price.`,
-                    technologies : [
-                    {
-                            name: 'ReactJS (PWA)'
-                    },    
-                    {
-                        name: 'javascript (Desktop)'
-                    },
-                    {
-                        name: 'JSP (Desktop)'
-                    },
-                    ]
-                },
-                {
-                    project : 'Banking Integration',
-                    content : 'Integrating banks like ADCB with their redemption scenarios',
-                    technologies : [
-                        {
-                            name: 'javascript'
-                        },
-                        {
-                            name: 'JSP (Desktop)'
-                        },
-                        {
-                            name: 'Backbone js'
-                        },
-                        {
-                            name: 'lodash'
-                        }
-                    ]
+                    project : 'Quick offer updation',
+                    content : 'Reduced a one day deployment procedure to a 10min procedure utlizing the Amazon S3 buckets'
                 },
 
                 {
@@ -146,12 +183,12 @@ var resumeData = {
             },
             {
                 designation : 'Software Engineer',
-                companyName: 'Unisys',
+                companyName: 'Unisys [Bengaluru, India]',
                 duration: '2014 August - 2017 May',
                 allprojects:[
                     {
                         project : 'Linesight [Border Security]',
-                        content : `Risk analysis using machine learning and related entities. I built the interface using mainly ArgularJS , utilizing directives to create a lot of reusable components. It involved user profile based access. Interacting with graph db for the related data and plotting it using keylines and AngularJS. ▪ Linesight mongodb aggregation setup [using RestHeart]: complex aggregations in mongodb like group flights by every x minutes`,
+                        content : `Risk analysis using machine learning and related entities. I built the interface using mainly AngularJS , utilizing directives to create a lot of reusable components. It involved user profile based access. Interacting with graph db for the related data and plotting it using keylines and AngularJS - Linesight mongodb aggregation setup [using RestHeart]: complex aggregations in mongodb like group flights by every x minutes`,
                         technologies : [
                         {
                             name: 'AngularJS'
@@ -213,7 +250,7 @@ var resumeData = {
         heading: 'Education',
         qualifications:[
             {
-                institute: 'Manipal Institute of Technology (Udupi)',
+                institute: 'Manipal Institute of Technology (Udupi, Karnataka, India)',
                 duration: '2010 - 2014',
                 degree: 'Bachelor of Engineering (BE)',
                 specialization: 'Computer Science and Engineering'
@@ -221,7 +258,7 @@ var resumeData = {
         ]
     },
     'skills' : {
-        heading : 'Front End Skills',
+        heading : 'Skills',
         topics : [
             {
                 name : 'Front-end Web Design',
