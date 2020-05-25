@@ -289,6 +289,12 @@ body {
  /**
  * Icon
  */
+.download {
+    text-decoration: none;
+    color: black;
+    background: #e2e3e3;
+    padding: 1em;
+}
 
 .shine {
     position: relative;
@@ -451,5 +457,8 @@ body {
     }
     .ptoponehalf{
         padding-top: 0.5rem;
+    }
+    .printHide{
+        display: none;
     }
 }
