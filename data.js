@@ -49,7 +49,7 @@ var resumeData = {
             {
                 url : 'https://www.linkedin.com/in/kartik-maurya-692aa892/',
                 logo : 'https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg',
-                name : 'bit.ly/30AjmAF'
+                name : 'LinkedIn'
             },
             {
                 url : 'https://github.com/9kartik',
