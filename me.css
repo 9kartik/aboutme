@@ -169,12 +169,9 @@ body {
     font-size: 2rem;
 }
 
-<<<<<<< HEAD
-=======
 .ptoponehalf{
     padding-top: 1.5rem;
 }
->>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
 
 .description{
     padding-left: 1.3em;
@@ -220,24 +217,18 @@ body {
 .piped{
     border: 0px;
 }
-<<<<<<< HEAD
-=======
 
 .bbdashed{
     /* border-bottom: 1px dotted lightgrey; */
     text-decoration-line: underline;
     /* text-decoration-style: dashed; */
 }
->>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
 .dot{
     display: none;
 }
 .mleft{
     text-align: left;
 }
-<<<<<<< HEAD
-@media only screen and (min-width: 500px) {
-=======
 
 .printShow{
     display: none;
@@ -377,18 +368,13 @@ body {
   }
 
 @media all and (min-width: 500px) {
->>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
     
     .dot{
         display: inline-block;
         position: relative;
-<<<<<<< HEAD
-        left: -4.6px;
-=======
         left: -1.05rem;
         background: #fff;
         color: #555;
->>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
     }
     .piped{
         border-left: 1px solid lightgrey;
@@ -408,18 +394,12 @@ body {
     }
     .grid3{
         display: grid;
-<<<<<<< HEAD
-        grid-template-columns: 5% 10% auto;
-=======
         grid-template-columns: 20% 10% auto;
->>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
         grid-gap: 1rem;
     }
     .mleft{
         text-align: initial;
     }
-<<<<<<< HEAD
-=======
     .description {
         padding-left: 1.3em;
         text-align: justify;
@@ -472,5 +452,4 @@ body {
     .ptoponehalf{
         padding-top: 0.5rem;
     }
->>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
 }

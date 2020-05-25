@@ -2,12 +2,6 @@ var resumeData = {
     'about' :{
         name : 'Kartik Maurya',
         email : 'mauryakartik@gmail.com',
-<<<<<<< HEAD
-        designation : 'Front-end Engineer',
-        currentCity : 'Bengaluru',
-        imgurl: 'https://avatars0.githubusercontent.com/u/2690844',
-        otherLinks :[
-=======
         designation : 'Software Engineer',
         currentCity : 'Bengaluru, India',
         resumeLink: 'https://9kartik.github.io/resume',
@@ -25,7 +19,6 @@ var resumeData = {
                 property : 'og:url',
                 value : 'https://9kartik.github.io/resume'
             },
->>>>>>> 576dd82587c94d90ef51b12cac506ced3f4c9f43
             {
                 property : 'og:type',
                 value : 'website'

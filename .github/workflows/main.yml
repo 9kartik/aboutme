@@ -18,5 +18,8 @@ jobs:
           git add .
           git commit -m "open graph updates"
           git push origin gh-pages
-      - run: |
-          node screenshot.js hello
+          npm i
+          node screenshot.js ${{ github.repository_owner }}
+          git add .
+          git commit -m "pdf generated"
+          git push origin gh-pages
