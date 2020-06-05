@@ -82,6 +82,11 @@ var resumeData = {
                 name : 'Computational Arts'
             },
             {
+                url: 'https://medium.com/@mauryakartik',
+                logo: 'https://cdn-static-1.medium.com/_/fp/icons/favicon-rebrand-medium.3Y6xpZ-0FSdWDnPM3hSBIA.ico',
+                name: 'Articles'
+            },
+            {
                 url : 'https://chrome.google.com/webstore/detail/alter-videos/ncebpefkldaiogkbhabbcgdoadfhpehj',
                 logo : 'https://icons.iconarchive.com/icons/carlosjj/google-jfk/16/chrome-web-store-icon.png',
                 name : 'Chrome Extension [Alter Videos]'
