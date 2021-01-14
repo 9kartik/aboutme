@@ -5,12 +5,13 @@ var resumeData = {
     designation: 'Software Engineer',
     currentCity: 'Bengaluru, India',
     resumeLink: 'https://9kartik.github.io/resume',
-    imgurl: 'https://avatars0.githubusercontent.com/u/2690844',
+    imgurl:
+      'https://miro.medium.com/fit/c/1360/1360/2*6n2RnXGwKcYAEmE2nlcu5w.jpeg',
     metaTags: [
       {
         property: 'og:image',
         value:
-          'https://lh3.googleusercontent.com/-TioHMda1bus/AAAAAAAAAAI/AAAAAAAAI4w/AAKWJJPEXaiQiDi1rOIaIKScqrvVU--Yhw.CMID/s400-c/photo.jpg',
+          'https://miro.medium.com/fit/c/1360/1360/2*6n2RnXGwKcYAEmE2nlcu5w.jpeg',
       },
       {
         property: 'og:description',
