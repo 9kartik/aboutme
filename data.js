@@ -283,10 +283,6 @@ var resumeData = {
         rating: 3,
       },
       {
-        name: 'MongoDB Aggregations',
-        rating: 2,
-      },
-      {
         name: 'mustacheJS',
         rating: 3,
       },
@@ -304,6 +300,30 @@ var resumeData = {
       },
       {
         name: 'ReactJS',
+        rating: 2,
+      },
+      {
+        name: 'jest',
+        rating: 2,
+      },
+      {
+        name: 'enzyme',
+        rating: 2,
+      },
+      {
+        name: 'storybook',
+        rating: 2,
+      },
+      {
+        name: 'React hooks',
+        rating: 2,
+      },
+      {
+        name: 'Context API',
+        rating: 2,
+      },
+      {
+        name: 'ramdajs',
         rating: 2,
       },
       {
