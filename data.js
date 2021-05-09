@@ -1,6 +1,6 @@
 var resumeData = {
   about: {
-    name: 'Kartik Maurya',
+    name: 'Kartik',
     email: 'mauryakartik@gmail.com',
     designation: 'Software Engineer',
     currentCity: 'Bengaluru, India',
