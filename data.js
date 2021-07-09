@@ -3,7 +3,7 @@ var resumeData = {
     name: 'Kartik',
     email: 'mauryakartik@gmail.com',
     designation: 'Software Engineer',
-    currentCity: 'Bengaluru, India',
+    currentCity: 'India',
     resumeLink: 'https://9kartik.github.io/resume',
     imgurl:
       'https://miro.medium.com/fit/c/1360/1360/2*6n2RnXGwKcYAEmE2nlcu5w.jpeg',
@@ -41,12 +41,7 @@ var resumeData = {
         url: 'tel:+918310387321',
         logo: 'https://img.icons8.com/android/24/FF0045/cell-phone.png',
         name: '+91-8310387321',
-      },
-      {
-        url: 'tel:+91-9535680359',
-        logo: 'https://img.icons8.com/android/24/FF5500/cell-phone.png',
-        name: '+91-9535680359',
-      },
+      }
     ],
     otherLinks: [
       {
@@ -107,6 +102,25 @@ var resumeData = {
     heading: 'Professional Projects',
     topics: [
       {
+        designation: 'Senior Developer Associate',
+        companyName: 'Atlassian',
+        duration: '2020 May-Present',
+        allprojects: [
+          {
+            project :'Opsgenie Frontend Security Fixes',
+            content : 'Assessing and fixing vulnerable npm packages which were exposed'
+          },
+          {
+            project : 'Sevice Management drafting feature',
+            content : 'Implementing the draft feature for confluence article integration into the Service Management portal'
+          },
+          {
+            project : 'Targeted storybook components',
+            content : 'Improved the storybook server in project to cater to custom stories in run as well as debug mode and improved the build time by 80%'
+          }
+        ]
+      },
+      {
         designation: 'UI Engineer',
         companyName: 'Cleartrip [Bengaluru, India]',
         duration: '2017 May-2020 March',
@@ -124,7 +138,7 @@ var resumeData = {
             ],
           },
           {
-            project: 'Quick offer updation',
+            project: 'Offer banner deployment optimisation',
             content:
               'Reduced a one day deployment procedure to a 10min procedure utlizing the Amazon S3 buckets',
           },
