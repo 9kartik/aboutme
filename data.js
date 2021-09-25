@@ -177,9 +177,9 @@ var resumeData = {
             ],
           },
           {
-            project: 'Flexible user based searches',
+            project: 'Flexible user based search Widget',
             content:
-              'Implemented LRU based browser storage so it tells you cheapest fare combinations for your recent searches.',
+              'Implemented using LRU Algorithm based browser storage so it tells you cheapest fare combinations for your recent searches.',
             technologies: [
               {
                 name: 'mustache.js',
@@ -191,17 +191,7 @@ var resumeData = {
                 name: 'Backbone js',
               },
             ],
-          },
-          {
-            project: 'Click-jack Proofing',
-            content:
-              'Click-jack reports were taken into account and a solution was provided',
-            technologies: [
-              {
-                name: 'javascript',
-              },
-            ],
-          },
+          }
         ],
       },
       {
