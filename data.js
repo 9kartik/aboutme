@@ -107,8 +107,8 @@ var resumeData = {
         duration: '2020 May-Present',
         allprojects: [
           {
-            project :'Opsgenie Frontend Security Fixes',
-            content : 'Assessing and fixing vulnerable npm packages which were exposed'
+            project :'Applying Frontend CSP',
+            content : 'Applying the Content Security Policy to our B2B product which protected the site further from XSS along with trackable error reporting. Also taking care a lot of security vulnerabilities from my end had taken place.'
           },
           {
             project : 'Sevice Management drafting feature',
@@ -286,6 +286,14 @@ var resumeData = {
     topics: [
       {
         name: 'Front-end Web Design',
+        rating: 3,
+      },
+      {
+        name: 'Unit Testing: Jest, Enzyme',
+        rating: 3,
+      },
+      {
+        name: 'End-to-end Testing: Cypress',
         rating: 3,
       },
       {
