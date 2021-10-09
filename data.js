@@ -45,10 +45,10 @@ var resumeData = {
     ],
     otherLinks: [
       {
-        url: 'https://www.linkedin.com/in/kartik-maurya-692aa892/',
+        url: 'https://twitter.com/mauryakartik9',
         logo:
-          'https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg',
-        name: 'LinkedIn',
+          'https://www.shareicon.net/data/256x256/2017/06/22/887584_logo_512x512.png',
+        name: 'twitter',
       },
       {
         url: 'https://github.com/9kartik',
