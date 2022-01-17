@@ -95,6 +95,12 @@ var resumeData = {
         logo: 'https://img.icons8.com/bubbles/100/000000/google-play.png',
         name: 'CVT [Android Game]',
       },
+      {
+        url:
+          'https://www.youtube.com/watch?v=hUqIHRFJoiE',
+        logo: 'https://pbs.twimg.com/profile_images/1416054353782181889/EA2GI7Dg_400x400.png',
+        name: 'YouTube Talk on CSP',
+      },
     ],
   },
   projects: {
@@ -102,7 +108,7 @@ var resumeData = {
     heading: 'Professional Projects',
     topics: [
       {
-        designation: 'Senior Developer Associate',
+        designation: 'Senior Associate Developer',
         companyName: 'Atlassian',
         duration: '2020 May-Present',
         allprojects: [
