@@ -98,7 +98,7 @@ var resumeData = {
       {
         url:
           'https://www.youtube.com/watch?v=hUqIHRFJoiE',
-        logo: 'https://pbs.twimg.com/profile_images/1416054353782181889/EA2GI7Dg_400x400.png',
+        logo: 'https://cdn.iconscout.com/icon/free/png-16/privacy-29-917039.png',
         name: 'YouTube Talk on CSP',
       },
     ],
