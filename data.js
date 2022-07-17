@@ -45,6 +45,25 @@ var resumeData = {
     ],
     otherLinks: [
       {
+        url:
+          'https://www.youtube.com/watch?v=hUqIHRFJoiE',
+        logo: 'https://cdn.iconscout.com/icon/free/png-16/privacy-29-917039.png',
+        name: 'YouTube Talk on CSP',
+      },
+      {
+        url:
+          'https://chrome.google.com/webstore/detail/alter-videos/ncebpefkldaiogkbhabbcgdoadfhpehj',
+        logo:
+          'https://icons.iconarchive.com/icons/carlosjj/google-jfk/16/chrome-web-store-icon.png',
+        name: 'Chrome Extension [Alter Videos]',
+      },
+      {
+        url:
+          'https://play.google.com/store/apps/details?id=com.aakaar.cvt&hl=en',
+        logo: 'https://img.icons8.com/bubbles/100/000000/google-play.png',
+        name: 'CVT [Android Game]',
+      },
+      {
         url: 'https://twitter.com/mauryakartik9',
         logo:
           'https://www.shareicon.net/data/256x256/2017/06/22/887584_logo_512x512.png',
@@ -81,26 +100,7 @@ var resumeData = {
         url: 'https://c00dles.blogspot.com/',
         logo: 'https://www.blogger.com/favicon.ico',
         name: 'Computational Arts',
-      },
-      {
-        url:
-          'https://chrome.google.com/webstore/detail/alter-videos/ncebpefkldaiogkbhabbcgdoadfhpehj',
-        logo:
-          'https://icons.iconarchive.com/icons/carlosjj/google-jfk/16/chrome-web-store-icon.png',
-        name: 'Chrome Extension [Alter Videos]',
-      },
-      {
-        url:
-          'https://play.google.com/store/apps/details?id=com.aakaar.cvt&hl=en',
-        logo: 'https://img.icons8.com/bubbles/100/000000/google-play.png',
-        name: 'CVT [Android Game]',
-      },
-      {
-        url:
-          'https://www.youtube.com/watch?v=hUqIHRFJoiE',
-        logo: 'https://cdn.iconscout.com/icon/free/png-16/privacy-29-917039.png',
-        name: 'YouTube Talk on CSP',
-      },
+      }
     ],
   },
   projects: {
@@ -113,16 +113,16 @@ var resumeData = {
         duration: '2020 May-Present',
         allprojects: [
           {
+            project : 'General Responsibilities',
+            content : 'Since it is a B2B I perform my duties as a frontend engineer, along with operational responsibilities for the product which my team owns. I have also been helping my team with the build optimisation and unblocking the pipelines whenever they get blocked.'
+          },
+          {
             project :'Applying Frontend CSP',
             content : 'Applying the Content Security Policy to our B2B product which protected the site further from XSS along with trackable error reporting. Also taking care a lot of security vulnerabilities from my end had taken place.'
           },
           {
-            project : 'Sevice Management drafting feature',
-            content : 'Implementing the draft feature for confluence article integration into the Service Management portal'
-          },
-          {
             project : 'Targeted storybook components',
-            content : 'Improved the storybook server in project to cater to custom stories in run as well as debug mode and improved the build time by 80%'
+            content : 'While working on the opsgenie frontend. As a innovation project I had improved the storybook server in project to cater to custom stories in run as well as debug mode and improved the build time by 80%'
           }
         ]
       },
@@ -292,6 +292,10 @@ var resumeData = {
         name: 'End-to-end Testing: Cypress',
         rating: 3,
       },
+      { 
+        name: 'GraphQL (relay)',
+        rating: 2
+      },
       {
         name: 'Backbone JS',
         rating: 3,
@@ -330,10 +334,6 @@ var resumeData = {
       },
       {
         name: 'storybook',
-        rating: 2,
-      },
-      {
-        name: 'React hooks',
         rating: 2,
       },
       {
