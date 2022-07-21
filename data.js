@@ -285,7 +285,7 @@ var resumeData = {
         rating: 3,
       },
       {
-        name: 'Unit Testing: Jest, Enzyme',
+        name: 'Unit Testing: Jest, react-testing-library, Enzyme',
         rating: 3,
       },
       {
@@ -322,10 +322,6 @@ var resumeData = {
       },
       {
         name: 'ReactJS',
-        rating: 2,
-      },
-      {
-        name: 'jest',
         rating: 2,
       },
       {
