@@ -113,16 +113,16 @@ var resumeData = {
         duration: '2020 May-Present',
         allprojects: [
           {
-            project : 'General Responsibilities',
-            content : 'Since it is a B2B I perform my duties as a frontend engineer, along with operational responsibilities for the product which my team owns. I have also been helping my team with the build optimisation and unblocking the pipelines whenever they get blocked.'
+            project : 'Jira Service Management',
+            content : 'Since it is a B2B I contribute to frontend development of features, all the factors like analytics, monitoring, testing and accessibility are considered while building the features. Along with those I also own the operational responsibilities. One example is when the TTI of our certain entry point pages was really slow, I improved it by 30% by making the server side frontend assets async. Another one is that I unblocked a then failing deployment build pipeline by limiting the core size to 80% which assured overconsumption of the CPU and also had further reduced the docker size from 20GB to 16GB.'
           },
           {
             project :'Applying Frontend CSP',
-            content : 'Applying the Content Security Policy to our B2B product which protected the site further from XSS along with trackable error reporting. Also taking care a lot of security vulnerabilities from my end had taken place.'
+            content : 'Enabled possible XSS(Cross Site Script) vulnerbility reporting on our Opsgenie website via enabling Content Security Policy on Global Edge.'
           },
           {
             project : 'Targeted storybook components',
-            content : 'While working on the opsgenie frontend. As a innovation project I had improved the storybook server in project to cater to custom stories in run as well as debug mode and improved the build time by 80%'
+            content : 'The storybooks were breaking a lot of developer experience, one storybook build failure was causing the whole local build to fail, I fixed the storybook server to cater to custom stories so they could run isolated and also improved the build time by 80%'
           }
         ]
       },
@@ -153,7 +153,7 @@ var resumeData = {
             project: 'Embedded Results',
             url: '',
             content:
-              'Existing expanded view was obstructive to the user, as users had to scroll through to see similar flights and combinations. Improved the UI to give the choice to pair flights.',
+              'Existing expanded view was obstructive to the user, as users had to scroll through to see similar flights and combinations. Improved the UI to give the choice to pair flights. This caused a 3% increased customer traction on the Search Results Page.',
             technologies: [
               {
                 name: 'javascript',
@@ -182,22 +182,6 @@ var resumeData = {
               },
             ],
           },
-          {
-            project: 'Flexible user based search Widget',
-            content:
-              'Implemented using LRU Algorithm based browser storage so it tells you cheapest fare combinations for your recent searches.',
-            technologies: [
-              {
-                name: 'mustache.js',
-              },
-              {
-                name: 'momentjs',
-              },
-              {
-                name: 'Backbone js',
-              },
-            ],
-          }
         ],
       },
       {
@@ -235,18 +219,6 @@ var resumeData = {
               },
               {
                 name: 'javascript',
-              },
-            ],
-          },
-          {
-            project: 'Banking PoC Ionic framework',
-            content: `Cross Platform Mobile Web app using ionic framework to audit a middleware Kinvey `,
-            technologies: [
-              {
-                name: 'Ionic 2',
-              },
-              {
-                name: 'Kinvey',
               },
             ],
           },
