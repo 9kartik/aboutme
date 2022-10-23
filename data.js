@@ -256,6 +256,10 @@ var resumeData = {
         name: 'Front-end Web Design',
         rating: 3,
       },
+      { 
+        name: 'Typescript',
+        rating: 3,
+      },
       {
         name: 'Unit Testing: Jest, react-testing-library, Enzyme',
         rating: 3,
