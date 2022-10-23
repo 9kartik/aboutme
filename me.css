@@ -279,6 +279,9 @@ body {
 .whitebg {
   background: white;
 }
+.col01{
+  background: #C7D0EE;
+}
 .vflex {
   display: flex;
   flex-direction: column;
