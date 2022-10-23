@@ -117,8 +117,8 @@ var resumeData = {
             content : 'Since it is a B2B I contribute to frontend development of features, all the factors like analytics, monitoring, testing and accessibility are considered while building the features. Along with those I also own the operational responsibilities. One example is when the TTI of our certain entry point pages was really slow, I improved it by 30% by making the server side frontend assets async. Another one is that I unblocked a then failing deployment build pipeline by limiting the core size to 80% which assured overconsumption of the CPU and also had further reduced the docker size from 20GB to 16GB.'
           },
           {
-            project :'Applying Frontend CSP',
-            content : 'Enabled possible XSS(Cross Site Script) vulnerbility reporting on our Opsgenie website via enabling Content Security Policy on Global Edge.'
+            project :'Frontend Security',
+            content : 'Enabled possible XSS(Cross Site Script) vulnerbility reporting on our Opsgenie website via enabling Content Security Policy on Global Edge. Also there was a severe attack happening on our login page because of an older recaptcha engine, I (along with Backend Engineer) upgraded the recaptcha engine to have a more severe score based recaptcha (this blocked the 100k active daily attacks).'
           },
           {
             project : 'Targeted storybook components',
@@ -170,15 +170,12 @@ var resumeData = {
             ],
           },
           {
-            project: 'Cross-sell: City Based Advertisement',
+            project: 'Frontend Security',
             content:
-              'Destination related activities and hotels suggestions on your flight ticket.',
+              'Blocked some four sites from clickjacking the cleartrip website.',
             technologies: [
               {
-                name: 'mustachejs(customised)',
-              },
-              {
-                name: 'lodash',
+                name: 'javascript',
               },
             ],
           },
