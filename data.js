@@ -114,7 +114,7 @@ var resumeData = {
         allprojects: [
           {
             project : 'Jira Service Management',
-            content : 'Have contributed to the Topics feature under JSM Help Center which increased our DAU by 20%. Also on the operational side - when the TTI of our certain entry point pages was really slow, I improved it by 30% by making the frontend assets async. Another one is that I unblocked a then failing deployment build pipeline by limiting the core size to 80% which reduced overconsumption of the CPU and also reduced the docker container size from 20GB to 16GB.'
+            content : 'Contributed to the Topics feature under JSM Help Center which increased our DAU by 20%, This involved utilising relay (a graphql client library). On the operational side - the homepage TTI was really slow, I improved it by 30% by making the frontend assets async. There was a failing deployment build pipeline which I fixed by limiting the core size to 80% which reduced overconsumption of the CPU and also reduced the docker container size from 20GB to 16GB.'
           },
           {
             project :'Frontend Security',
@@ -198,19 +198,7 @@ var resumeData = {
             ],
           }
         ],
-      },
-      {
-        designation: 'Android Developer Intern',
-        companyName: 'TEKSTRA TECHNOLOGIES',
-        duration: '2013 May - June',
-        allprojects: [
-          {
-            project: 'Wait For Me',
-            content: `The android camera app would wait for the number of faces to take a picture, good for a group photo! 
-                        `,
-          },
-        ],
-      },
+      }
     ],
   },
   education: {
@@ -233,6 +221,14 @@ var resumeData = {
       },
       { 
         name: 'Typescript',
+        rating: 3,
+      },
+      { 
+        name: 'Relay (a graphql client library)',
+        rating: 3,
+      },
+      { 
+        name: 'Bitbucket pipelines',
         rating: 3,
       },
       {
@@ -273,10 +269,6 @@ var resumeData = {
       },
       {
         name: 'ReactJS',
-        rating: 2,
-      },
-      {
-        name: 'enzyme',
         rating: 2,
       },
       {
