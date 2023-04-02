@@ -134,15 +134,7 @@ var resumeData = {
                         }
                     ]
                 },
-                {
-                    project : 'Click-jack Proofing',
-                    content : 'Click-jack reports were taken into account and a solution was provided',
-                    technologies : [
-                        {
-                            name : 'javascript'
-                        }
-                    ]
-                }]
+                ]
             },
             {
                 designation : 'Software Engineer',
@@ -151,7 +143,7 @@ var resumeData = {
                 allprojects:[
                     {
                         project : 'Linesight [Border Security]',
-                        content : `Risk analysis using machine learning and related entities. I built the interface using mainly ArgularJS , utilizing directives to create a lot of reusable components. It involved user profile based access. Interacting with graph db for the related data and plotting it using keylines and AngularJS. ▪ Linesight mongodb aggregation setup [using RestHeart]: complex aggregations in mongodb like group flights by every x minutes`,
+                        content : `Risk analysis using machine learning and related entities. I built the interface using mainly ArgularJS , utilizing directives to create a lot of reusable components. It involved user profile based access. Interacting with graph db for the related data and plotting it using keylines and AngularJS. ▪ Linesight mongodb aggregation setup [using RestHeart]. The keylines graphical map became a selling point for the Singapore Police department.`,
                         technologies : [
                         {
                             name: 'AngularJS'
@@ -167,18 +159,6 @@ var resumeData = {
                         },
                         {
                             name: 'RestHeart'
-                        }
-                        ]
-                    },
-                    {
-                        project : 'Transport Management System',
-                        content : `Responsive UI development: Introduced searchable table headers in the website.`,
-                        technologies : [
-                        {
-                            name: 'SCSS'
-                        },    
-                        {
-                            name: 'javascript'
                         }
                         ]
                     },
