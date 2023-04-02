@@ -114,15 +114,15 @@ var resumeData = {
         allprojects: [
           {
             project : 'Jira Service Management',
-            content : 'Since it is a B2B I contribute to frontend development of features, all the factors like analytics, monitoring, testing and accessibility are considered while building the features. Along with those I also own the operational responsibilities. One example is when the TTI of our certain entry point pages was really slow, I improved it by 30% by making the server side frontend assets async. Another one is that I unblocked a then failing deployment build pipeline by limiting the core size to 80% which assured overconsumption of the CPU and also had further reduced the docker size from 20GB to 16GB.'
+            content : 'Have contributed to the Topics feature under JSM Help Center which increased our DAU by 20%. Also on the operational side - when the TTI of our certain entry point pages was really slow, I improved it by 30% by making the frontend assets async. Another one is that I unblocked a then failing deployment build pipeline by limiting the core size to 80% which reduced overconsumption of the CPU and also reduced the docker container size from 20GB to 16GB.'
           },
           {
             project :'Frontend Security',
-            content : 'Enabled possible XSS(Cross Site Script) vulnerbility reporting on our Opsgenie website via enabling Content Security Policy on Global Edge. Also there was a severe attack happening on our login page because of an older recaptcha engine, I (along with Backend Engineer) upgraded the recaptcha engine to have a more severe score based recaptcha (this blocked the 100k active daily attacks).'
+            content : 'Enabled possible XSS(Cross Site Script) vulnerbility reporting on our Opsgenie website via enabling Content Security Policy on Global Edge. Also there was a severe attack happening on our login page because of an older recaptcha engine, I upgraded the recaptcha engine to have a more severe score based recaptcha (this blocked the 100k daily active attacks).'
           },
           {
-            project : 'Targeted storybook components',
-            content : 'The storybooks were breaking a lot of developer experience, one storybook build failure was causing the whole local build to fail, I fixed the storybook server to cater to custom stories so they could run isolated and also improved the build time by 80%'
+            project : 'Developer Productivity',
+            content : 'The storybooks were breaking a lot of developer experience, one storybook build failure was causing the whole local build to fail, I fixed the storybook server to cater to custom stories so they could run isolated and also improved the build time by 80%.'
           }
         ]
       },
@@ -133,7 +133,7 @@ var resumeData = {
         allprojects: [
           {
             project: 'Site Revamp to React',
-            content: `Migrating our search results page from shtml and javascript to React. Bridging the backend and frontend gap. Mentoring the team through the business logic, so it could be implemented better on NodeJs and the UI layer.`,
+            content: `Migrating our search results page from shtml and javascript to React. Bridging the backend and frontend gap. Mentoring the team through the business logic, so it could be implemented better on NodeJS and the UI layer.`,
             technologies: [
               {
                 name: 'ReactJS',
@@ -168,17 +168,7 @@ var resumeData = {
                 rating: 4,
               },
             ],
-          },
-          {
-            project: 'Frontend Security',
-            content:
-              'Blocked some four sites from clickjacking the cleartrip website.',
-            technologies: [
-              {
-                name: 'javascript',
-              },
-            ],
-          },
+          }
         ],
       },
       {
@@ -188,7 +178,7 @@ var resumeData = {
         allprojects: [
           {
             project: 'Linesight [Border Security]',
-            content: `Risk analysis using machine learning and related entities. I built the interface using mainly AngularJS , utilizing directives to create a lot of reusable components. It involved user profile based access. Interacting with graph db for the related data and plotting it using keylines and AngularJS - Linesight mongodb aggregation setup [using RestHeart]: complex aggregations in mongodb like group flights by every x minutes`,
+            content: `Risk analysis using machine learning and related entities. I built the interface using mainly AngularJS , utilizing directives to create a lot of reusable components. It involved user profile based access. Interacting with graph db for the related data and plotting it using keylines and AngularJS - Linesight mongodb aggregation setup [using RestHeart]. This became a selling point for the Singapore Police Department.`,
             technologies: [
               {
                 name: 'AngularJS',
@@ -206,19 +196,7 @@ var resumeData = {
                 name: 'RestHeart',
               },
             ],
-          },
-          {
-            project: 'Transport Management System',
-            content: `Responsive UI development: Introduced searchable table headers in the website.`,
-            technologies: [
-              {
-                name: 'SCSS',
-              },
-              {
-                name: 'javascript',
-              },
-            ],
-          },
+          }
         ],
       },
       {
