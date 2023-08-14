@@ -118,7 +118,7 @@ var resumeData = {
           },
           {
             project :'Frontend Security',
-            content : 'Enabled possible XSS(Cross Site Script) vulnerbility reporting on our Opsgenie website via enabling Content Security Policy on Global Edge. Also there was a severe attack happening on our login page because of an older recaptcha engine, I upgraded the recaptcha engine to have a more severe score based recaptcha (this blocked the 100k daily active attacks).'
+            content : 'Enabled possible XSS(Cross Site Script) vulnerbility reporting on our Opsgenie website via enabling Content Security Policy on Global Edge. Also there was a severe attack happening on our login page because of an older recaptcha engine, I upgraded the recaptcha engine to have a more severe score based recaptcha (this blocked the 100k daily active attacks). I worked on React, AngularJS and Vue while working in the Opsgenie team.'
           },
           {
             project : 'Developer Productivity',
@@ -224,10 +224,6 @@ var resumeData = {
         rating: 3,
       },
       { 
-        name: 'Relay (a graphql client library)',
-        rating: 3,
-      },
-      { 
         name: 'Bitbucket pipelines',
         rating: 3,
       },
@@ -240,11 +236,11 @@ var resumeData = {
         rating: 3,
       },
       { 
-        name: 'GraphQL (relay)',
+        name: 'GraphQL (with relay client)',
         rating: 2
       },
       {
-        name: 'Backbone JS',
+        name: 'VueJS',
         rating: 3,
       },
       {
