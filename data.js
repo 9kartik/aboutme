@@ -240,7 +240,7 @@ var resumeData = {
         rating: 2
       },
       {
-        name: 'VueJS',
+        name: 'Vue.js',
         rating: 3,
       },
       {
