@@ -244,6 +244,14 @@ var resumeData = {
         rating: 3,
       },
       {
+        name: 'styled-components',
+        rating: 3,
+      },
+      {
+        name: 'compiled-css-in-js',
+        rating: 3,
+      },
+      {
         name: 'CSS',
         rating: 3,
       },
