@@ -67,7 +67,7 @@ var resumeData = {
         url: 'https://www.linkedin.com/in/kartik-692aa892/',
         logo:
           'https://www.linkedin.com/favicon.ico',
-        name: 'twitter',
+        name: 'LinkedIn',
       },
       {
         url: 'https://twitter.com/mauryakartik9',
