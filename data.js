@@ -64,6 +64,12 @@ var resumeData = {
         name: 'CVT [Android Game]',
       },
       {
+        url: 'https://www.linkedin.com/in/kartik-692aa892/',
+        logo:
+          'https://www.linkedin.com/favicon.ico',
+        name: 'twitter',
+      },
+      {
         url: 'https://twitter.com/mauryakartik9',
         logo:
           'https://www.shareicon.net/data/256x256/2017/06/22/887584_logo_512x512.png',
