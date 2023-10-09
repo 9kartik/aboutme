@@ -52,6 +52,12 @@ var resumeData = {
       },
       {
         url:
+          'https://kartikm.my.canva.site/',
+        logo: 'https://www.appdeploynews.com/wp-content/uploads/2023/05/canva-icon.png',
+        name: 'Portfolio',
+      },
+      {
+        url:
           'https://chrome.google.com/webstore/detail/alter-videos/ncebpefkldaiogkbhabbcgdoadfhpehj',
         logo:
           'https://icons.iconarchive.com/icons/carlosjj/google-jfk/16/chrome-web-store-icon.png',
