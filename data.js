@@ -117,7 +117,7 @@ var resumeData = {
   },
   projects: {
     // three columns per project
-    heading: 'Professional Projects',
+    heading: 'Work Experience',
     topics: [
       {
         designation: 'Senior Associate Developer',
@@ -126,15 +126,15 @@ var resumeData = {
         allprojects: [
           {
             project : 'Jira Service Management',
-            content : 'Contributed to the Topics feature under JSM Help Center which increased our DAU by 20%, This involved utilising relay (a graphql client library). On the operational side - the homepage TTI was really slow, I improved it by 30% by making the frontend assets async. There was a failing deployment build pipeline which I fixed by limiting the core size to 80% which reduced overconsumption of the CPU and also reduced the docker container size from 20GB to 16GB.'
+            content : 'Contributed to an experimental drag and drop site builder, owned the image element which involved positioning, resizing, and optimised image upload. Contributed to the Topics feature under JSM Help Center which increased our DAU by 20%, this involved utilising relay (a graphql client library). On the operational side • the homepage TTI was really slow, I improved it by 30% by making the frontend assets async. On the build side I fixed a long failing automation testing CI build pipeline by limiting the core size to 80% which reduced overconsumption of the CPU and also reduced the docker container size from 20GB to 16GB.'
           },
           {
             project :'Frontend Security',
-            content : 'Enabled possible XSS(Cross Site Script) vulnerbility reporting on our Opsgenie website via enabling Content Security Policy on Global Edge. Also there was a severe attack happening on our login page because of an older recaptcha engine, I upgraded the recaptcha engine to have a more severe score based recaptcha (this blocked the 100k daily active attacks). I worked on React, AngularJS and Vue while working in the Opsgenie team.'
+            content : 'Enabled possible XSS(Cross Site Script) vulnerbility reporting on our Opsgenie website via enabling Content Security Policy on Global Edge, enabling sentry to track all such violations. Also there was a severe attack happening on our login page because of an older recaptcha engine, I upgraded the recaptcha engine to have a more severe score based recaptcha (this blocked the 100k daily active attacks). I worked on React, AngularJS and Vue while working in the Opsgenie team.'
           },
           {
             project : 'Developer Productivity',
-            content : 'The storybooks were breaking a lot of developer experience, one storybook build failure was causing the whole local build to fail, I fixed the storybook server to cater to custom stories so they could run isolated and also improved the build time by 80%.'
+            content : 'Once we were receiving 250+ mid urgency alerts for the third party translations, I fixed it by updating our webpack translation plugin and within 3 weeks we were able to translate 98% of the third party messages. I also helped enabling targetted storybooks, since one storybook build failure was causing the whole local storybook build to fail, I wrote a storybook plugin to so that one could run isolated stories which also helped improve the build time by 80%.'
           }
         ]
       },
