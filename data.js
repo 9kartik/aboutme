@@ -6,7 +6,7 @@ var resumeData = {
     currentCity: 'India',
     resumeLink: 'https://9kartik.github.io/resume',
     imgurl:
-      'https://miro.medium.com/fit/c/1360/1360/2*6n2RnXGwKcYAEmE2nlcu5w.jpeg',
+      './assets/facefront_2023.jpg',
     metaTags: [
       {
         property: 'og:image',
