@@ -122,7 +122,7 @@ var resumeData = {
       {
         designation: 'Senior Associate Developer',
         companyName: 'Atlassian',
-        duration: '2020 May-Present',
+        duration: '2020 May-2023 October',
         allprojects: [
           {
             project : 'Jira Service Management',
