@@ -126,7 +126,7 @@ var resumeData = {
         allprojects: [
           {
             project : 'Jira Service Management',
-            content : 'Contributed to an experimental drag and drop site builder, owned the image element which involved positioning, resizing, and optimised image upload. Contributed to the Topics feature under JSM Help Center which increased our DAU by 20%, this involved utilising relay (a graphql client library). On the operational side • the homepage TTI was really slow, I improved it by 30% by making the frontend assets async. On the build side I fixed a long failing automation testing CI build pipeline by limiting the core size to 80% which reduced overconsumption of the CPU and also reduced the docker container size from 20GB to 16GB.'
+            content : 'Contributed to an experimental drag and drop site builder, owned the image element which involved positioning, resizing, and optimised image upload. Contributed to the Topics feature under JSM Help Center which increased our DAU by 20%, this involved utilising relay (a graphql client library) to provide a WCAG Level AA drag-and-drop interface. On the operational side • the homepage TTI was really slow, I improved it by 30% by making the frontend assets async. On the build side I fixed a long failing automation testing CI build pipeline by limiting the core size to 80% which reduced overconsumption of the CPU and also reduced the docker container size from 20GB to 16GB.'
           },
           {
             project :'Frontend Security',
@@ -303,6 +303,14 @@ var resumeData = {
         name: 'Vanilla Javascript',
         rating: 3,
       },
+      {
+        name: 'a11y',
+        rating: 3,
+      },
+      {
+        name: 'i18n',
+        rating: 3,
+      }
     ],
   },
 };
