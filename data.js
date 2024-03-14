@@ -84,7 +84,7 @@ var resumeData = {
       {
         url: 'https://github.com/9kartik',
         logo:
-          'https://github.githubassets.com/images/modules/logos_page/Octocat.png',
+          'https://github.githubassets.com/favicons/favicon.png',
         name: 'github.com/9kartik',
       },
       {
@@ -119,6 +119,21 @@ var resumeData = {
     // three columns per project
     heading: 'Work Experience',
     topics: [
+      {
+        designation: 'Senior Frontend Engineer (Team Lead)',
+        companyName: 'Stealth based B2B SaaS',
+        duration: '2023 November - Present',
+        allprojects: [
+          {
+            project : 'Post acquisition SEO fixes',
+            content : 'Led the improvement the SEO of an acquired product using strategies like sitemap segregation and redirect fixes. Reducing non-indexed pages by 4M in 3months. Increased indexed pages by 1M.'
+          },
+          {
+            project :'Frontend Migration',
+            content : 'Leading a team of 2 engineers. Architecting the UI Migration of an acquired product\'s subdomain from jQuery+express based code to Angular + nest based code. Also involves migration from AWS to GCP.'
+          }
+        ]
+      },
       {
         designation: 'Senior Associate Developer',
         companyName: 'Atlassian',
