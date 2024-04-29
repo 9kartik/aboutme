@@ -15,7 +15,7 @@ var resumeData = {
       },
       {
         property: 'og:description',
-        value: 'Kartik Maurya (Software Engineer)',
+        value: 'Kartik Maurya (Senior Software Engineer)',
       },
       {
         property: 'og:url',
@@ -64,18 +64,6 @@ var resumeData = {
         name: 'Chrome Extension [Alter Videos]',
       },
       {
-        url:
-          'https://play.google.com/store/apps/details?id=com.aakaar.cvt&hl=en',
-        logo: 'https://img.icons8.com/bubbles/100/000000/google-play.png',
-        name: 'CVT [Android Game]',
-      },
-      {
-        url: 'https://www.linkedin.com/in/kartik-692aa892/',
-        logo:
-          'https://www.linkedin.com/favicon.ico',
-        name: 'LinkedIn',
-      },
-      {
         url: 'https://twitter.com/mauryakartik9',
         logo:
           'https://www.shareicon.net/data/256x256/2017/06/22/887584_logo_512x512.png',
@@ -121,7 +109,7 @@ var resumeData = {
     topics: [
       {
         designation: 'Senior Frontend Engineer (Team Lead)',
-        companyName: 'Stealth based B2B SaaS',
+        companyName: 'ZoomInfo',
         duration: '2023 November - Present',
         allprojects: [
           {
@@ -130,7 +118,7 @@ var resumeData = {
           },
           {
             project :'Frontend Migration',
-            content : 'Leading a team of 2 engineers. Architecting the UI Migration of an acquired product\'s subdomain from jQuery+express based code to Angular + nest based code. Also involves migration from AWS to GCP.'
+            content : 'Leading a team of 2 engineers. Architecting the UI Migration of an acquired product\'s subdomain from jQuery+express based code to Angular + nest based code (involves migration from AWS to GCP). I utilised github actions with self hosted runners to host our static storybooks for cross team visibility of the current component system.'
           }
         ]
       },
@@ -254,6 +242,10 @@ var resumeData = {
         name: 'Bitbucket pipelines',
         rating: 3,
       },
+      { 
+        name: 'Github actions',
+        rating: 3,
+      },
       {
         name: 'Unit Testing: Jest, react-testing-library, Enzyme',
         rating: 3,
@@ -295,7 +287,7 @@ var resumeData = {
         rating: 3,
       },
       {
-        name: 'Ionic + AngularJS',
+        name: 'Angular',
         rating: 3,
       },
       {
