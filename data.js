@@ -113,12 +113,12 @@ var resumeData = {
         duration: '2023 November - Present',
         allprojects: [
           {
-            project : 'Post acquisition SEO fixes',
-            content : 'Led the improvement the SEO of an acquired product using strategies like sitemap segregation and redirect fixes. Reducing non-indexed pages by 4M in 3months. Increased indexed pages by 1M.'
+            project :'Frontend Migration',
+            content : 'Leading a team of 2 engineers. Architecting the UI Migration of an acquired product\'s subdomain from jQuery+express based code to Angular + nest based code (involves migration from AWS to GCP), along with support of Server Side Rendering. Additionally utilised github actions with self hosted runners to host our static storybooks for cross team visibility of the current component system.'
           },
           {
-            project :'Frontend Migration',
-            content : 'Leading a team of 2 engineers. Architecting the UI Migration of an acquired product\'s subdomain from jQuery+express based code to Angular + nest based code (involves migration from AWS to GCP). I utilised github actions with self hosted runners to host our static storybooks for cross team visibility of the current component system.'
+            project : 'Post acquisition SEO fixes',
+            content : 'Led the improvement the SEO of an acquired product using strategies like sitemap segregation and redirect fixes. Reducing non-indexed pages by 4M in 3months. Increased indexed pages by 1M.'
           }
         ]
       },
