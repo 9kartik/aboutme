@@ -34,12 +34,12 @@ var resumeData = {
       {
         url:
           'mailto:someone@example.com?Subject=Mailing through your resume link',
-        logo: 'https://img.icons8.com/material-two-tone/344/important-mail.png',
+        logo: 'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/email.png',
         name: 'mauryakartik@gmail.com',
       },
       {
         url: 'tel:+918310387321',
-        logo: 'https://img.icons8.com/android/24/FF0045/cell-phone.png',
+        logo: 'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/cell-phone.png',
         name: '+91-8310387321',
       }
     ],
@@ -47,58 +47,58 @@ var resumeData = {
       {
         url:
           'https://www.youtube.com/watch?v=hUqIHRFJoiE',
-        logo: 'https://cdn.iconscout.com/icon/free/png-16/privacy-29-917039.png',
+        logo: 'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/lock.png',
         name: 'YouTube Talk on CSP',
       },
       {
         url:
           'https://kartikm.my.canva.site/',
-        logo: 'https://www.appdeploynews.com/wp-content/uploads/2023/05/canva-icon.png',
+        logo: 'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/canva-icon.png',
         name: 'Portfolio',
       },
       {
         url:
           'https://chrome.google.com/webstore/detail/alter-videos/ncebpefkldaiogkbhabbcgdoadfhpehj',
         logo:
-          'https://icons.iconarchive.com/icons/carlosjj/google-jfk/16/chrome-web-store-icon.png',
+          'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/chrome-web-store-icon.png',
         name: 'Chrome Extension [Alter Videos]',
       },
       {
         url: 'https://twitter.com/mauryakartik9',
         logo:
-          'https://www.shareicon.net/data/256x256/2017/06/22/887584_logo_512x512.png',
+          'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/twitter.png',
         name: 'twitter',
       },
       {
         url: 'https://github.com/9kartik',
         logo:
-          'https://github.githubassets.com/favicons/favicon.png',
+          'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/github.png',
         name: 'github.com/9kartik',
       },
       {
         url: 'https://www.webcomponents.org/author/9kartik',
-        logo: 'https://web-components-resources.appspot.com/static/logo.svg',
+        logo: 'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/webcomponents.svg',
         name: 'webcomponents',
       },
       {
         url: 'https://www.npmjs.com/~ka9',
         logo:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnwCG1Vn7-Iky9hdTFUH78kvT7BNjrPQpsPeZ1rIubesRnKWba',
+          'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/npm.png',
         name: 'npm',
       },
       {
         url: 'https://www.behance.net/kanine',
-        logo: 'https://www.behance.net/favicon.ico',
+        logo: 'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/behance.ico',
         name: 'behance.net/kanine',
       },
       {
         url: 'https://stackoverflow.com/users/3335941/kanine',
-        logo: 'https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico',
+        logo: 'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/stackoverflow.ico',
         name: 'stackoverflow',
       },
       {
         url: 'https://c00dles.blogspot.com/',
-        logo: 'https://www.blogger.com/favicon.ico',
+        logo: 'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/blogspot.ico',
         name: 'Computational Arts',
       }
     ],
