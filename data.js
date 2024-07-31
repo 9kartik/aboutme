@@ -114,11 +114,11 @@ var resumeData = {
         allprojects: [
           {
             project :'Frontend Migration',
-            content : 'Leading a team of 2 engineers. Architecting the UI Migration of an acquired product\'s subdomain from jQuery+express based code to Angular + nest based code (involves migration from AWS to GCP), along with support of Server Side Rendering. Additionally utilised github actions with self hosted runners to host our static storybooks for cross team visibility of the current component system.'
+            content : 'Leading a team of 2 engineers. Architecting the UI Migration of an acquired product\'s subdomain from jQuery+express based code to Angular + nest based code (involves migration from AWS to GCP), along with support of Server Side Rendering and building a first party component design system. Additionally utilised github actions with self hosted runners to host our static storybooks for cross team visibility.'
           },
           {
-            project : 'Post acquisition SEO fixes',
-            content : 'Led the improvement the SEO of an acquired product using strategies like sitemap segregation and redirect fixes. Reducing non-indexed pages by 4M in 3months. Increased indexed pages by 1M.'
+            project : 'SEO fixes',
+            content : 'Led the improvement the SEO of an acquired product using strategies like sitemap segregation, redirect fixes, scraping attack blocking and js resource size reduction by minification. Reducing non-indexed pages by 4M in 3months. Increased indexed pages by 70%.'
           }
         ]
       },
@@ -137,7 +137,7 @@ var resumeData = {
           },
           {
             project : 'Developer Productivity',
-            content : 'Once we were receiving 250+ mid urgency alerts for the third party translations, I fixed it by updating our webpack translation plugin and within 3 weeks we were able to translate 98% of the third party messages. I also helped enabling targetted storybooks, since one storybook build failure was causing the whole local storybook build to fail, I wrote a storybook plugin to so that one could run isolated stories which also helped improve the build time by 80%.'
+            content : 'Fixed 250+ mid urgency alerts for the third party translations by updating our webpack translation plugin and within 3 weeks we were able to translate 98% of the third party messages. Enabled targetted storybooks, since one storybook build failure was causing the whole local storybook build to fail, wrote a storybook plugin to so that one could run isolated stories which also helped improve the build time by 80%.'
           }
         ]
       },
