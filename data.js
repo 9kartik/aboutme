@@ -114,11 +114,11 @@ var resumeData = {
         allprojects: [
           {
             project :'Frontend Migration',
-            content : 'Leading a team of 4 frontend engineers. Architecting the UI Migration of an acquired product\'s subdomain from jQuery+express based code to Angular + nest based code (involves migration from AWS to GCP), along with support of Server Side Rendering and building a first party component design system. Additionally utilised github actions with self hosted runners to host our static storybooks for cross team visibility. Identified threat vectors on our public page using JA3/JA4+ fingerprints to prevent 1.2M/day scraping attacks.'
+            content : 'Leading a team of 4 frontend engineers. Architecting the UI Migration of an acquired product\'s subdomain from jQuery+express based code to Angular + nest based code (involves migration from AWS to GCP), along with support of Server Side Rendering and building a first party component design system. Additionally utilised github actions with self hosted runners to host our static storybooks for cross team visibility. Introduced deferrable views in frontend to reduce LCP by upto 60% without it.'
           },
           {
-            project : 'SEO improvements',
-            content : 'Led the improvement the SEO of an acquired product using strategies like sitemap segregation, redirect fixes, scraping attack blocking and js resource size reduction by minification. Reducing non-indexed pages by 4M in 3months. Increased indexed pages by 70%.'
+            project : 'On-page SEO optimisations',
+            content : 'Led the improvement the SEO of an acquired product using strategies like sitemap segregation, redirect fixes and js resource size reduction (by 30%) using minification. Reducing non-indexed pages by 4M in 3months. Increased indexed pages by 70%. Identified threat vectors on our public page using JA3/JA4+ fingerprints to prevent 1.2M/day scraping attacks.'
           }
         ]
       },
@@ -159,7 +159,7 @@ var resumeData = {
             ],
           },
           {
-            project: 'Offer banner deployment optimisation',
+            project: 'In house Dynamic Configuration Loading',
             content:
               'Reduced a one day deployment procedure to a 10min procedure utlizing the Amazon S3 buckets',
           },
