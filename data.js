@@ -114,7 +114,7 @@ var resumeData = {
         allprojects: [
           {
             project :'Frontend Migration',
-            content : 'Leading a team of 4 frontend engineers. Architecting the UI Migration of an acquired product\'s subdomain from jQuery+express based code to Angular + nest based code (involves migration from AWS to GCP), along with support of Server Side Rendering and building a first party component design system. Additionally utilised github actions with self hosted runners to host our static storybooks for cross team visibility. Introduced deferrable views in frontend to reduce LCP by upto 60% without it.'
+            content : 'Leading a team of 4 frontend engineers. Architecting the UI Migration of an old product from jQuery + express based code to Angular + nest based code (involves migration from AWS to GCP), along with support of Server Side Rendering and building a first party component library (along with design guidelines). Additionally utilised github actions with self hosted runners to host our static storybooks for cross team visibility. Introduced deferrable views in frontend to reduce LCP by upto 70%, this improved LCP score as well.'
           },
           {
             project : 'On-page SEO optimisations',
