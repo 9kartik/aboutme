@@ -114,7 +114,7 @@ var resumeData = {
         allprojects: [
           {
             project :'Frontend Migration',
-            content : 'Leading a team of 4 frontend engineers. Architecting the UI Migration of an old product from jQuery + express based code to Angular + nest based code (involves migration from AWS to GCP), along with support of Server Side Rendering and building a first party component library (along with design guidelines). Additionally utilised github actions with self hosted runners to host our static storybooks for cross team visibility. Introduced deferrable views in frontend to reduce LCP by upto 70%, this improved LCP score as well.'
+            content : 'Leading a team of 4 frontend engineers. Architecting the UI Migration of an old product from jQuery + express based code to Angular + nest based code (involves migration from AWS to GCP), along with support of Server Side Rendering and building a first party component library (along with design guidelines). Additionally utilised github actions with self hosted runners to host our static storybooks for cross team visibility. Introduced deferrable views in frontend to reduce LCP by upto 70%, this improved CLS score as well. Also introduced eslint rules for faster PR reviews.'
           },
           {
             project : 'On-page SEO optimisations',
@@ -129,7 +129,7 @@ var resumeData = {
         allprojects: [
           {
             project : 'Jira Service Management',
-            content : 'Contributed to an experimental drag and drop site builder, owned the image element which involved positioning, resizing, and optimised image upload. Contributed to the Topics feature under JSM Help Center which increased our DAU by 20%, this involved utilising relay (a graphql client library) to provide a WCAG Level AA drag-and-drop interface. On the operational side • improved homepage TTI by 30% by making the frontend assets async. As a part of Build Engineering - Fixed a long failing automation testing CI build pipeline by limiting the core size to 80% which reduced overconsumption of the CPU and also reduced the docker container size from 20GB to 16GB.'
+            content : 'Contributed to an experimental drag and drop site builder, owned the image element which involved positioning, resizing, and optimised image upload. Contributed to the Topics feature under JSM Help Center which increased our DAU by 20%, this involved utilising relay (a graphql client library) to provide a WCAG Level AA drag-and-drop interface. There was a need of syncing the backend generated graphql schema with our frontend repo - so I built a periodic bitbucket pipeline which used a bitbucket bot to pull up schema from the backend hosted schema onto our frontend repo. On the operational side • improved homepage TTI by 30% by making the frontend assets async. As a part of Build Engineering - Fixed a long failing automation testing CI build pipeline by limiting the core size to 80% which reduced overconsumption of the CPU and also reduced the docker container size from 20GB to 16GB.'
           },
           {
             project :'Frontend Security',
