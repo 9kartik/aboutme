@@ -11,7 +11,7 @@ var resumeData = {
       {
         property: 'og:image',
         value:
-          'https://miro.medium.com/fit/c/1360/1360/2*6n2RnXGwKcYAEmE2nlcu5w.jpeg',
+          'https://some-imgs.s3.ap-south-1.amazonaws.com/cv_assets/facefront_2023+(1).jpg',
       },
       {
         property: 'og:description',
