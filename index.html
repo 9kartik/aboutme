@@ -4,8 +4,8 @@
       href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="me.css?v=1780129150562" />
-    <script type="text/javascript" src="data.js?v=1780129150562"></script>
+    <link rel="stylesheet" href="me.css?v=1780133723536" />
+    <script type="text/javascript" src="data.js?v=1780133723536"></script>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.1.0/mustache.js"
@@ -13,7 +13,7 @@
     <script
       type="text/javascript"
       defer
-      src="script.js?v=1780129150562"
+      src="script.js?v=1780133723536"
     ></script>
     <script type="application/ld+json">
         {
@@ -121,7 +121,7 @@
     <div class="container grid2">
         {{#resumeData}}
             {{#about}}
-                    <div class="dstick-0-0">
+                    <div class="dstick-0-0 printHide">
                         <div class="ptop centered">
                             {{#resumeLink}}<a href={{resumeLink}}>{{/resumeLink}}
                                 <img class="imgRound " height="120em" src="{{imgurl}}">
@@ -130,13 +130,19 @@
                     </div>
                     <div>
                         <div class="dgrey header">{{name}}</div>
-                        <div class="lgrey t8">
-                            {{#uppercase}}{{{designation}}}{{/uppercase}}
+                        <div class="lgrey t8 print-inline">
+                            <span>{{#uppercase}}{{{designation}}}{{/uppercase}}</span>
+                            <span class="printShow t8 float-right">
+                                {{#contactLinks}}
+                                    <span class="pr1 pleft">
+                                        <a href="{{url}}" target="_blank" style="text-decoration: none; color: inherit;">{{name}}</a>
+                                    </span>
+                                {{/contactLinks}}
+                            </span>
                         </div>
-
                     </div>
             {{/about}}
-            <div class="centered dstick-0-10">
+            <div class="centered dstick-0-10 printHide">
                 <div class="pb1 bold pcentered">PERSONAL DETAILS</div>
                 <div class="t8 pbhalf pcentered">Country</div>
                 <div class="t8 pcentered">{{about.currentCity}}</div>

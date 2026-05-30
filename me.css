@@ -477,22 +477,42 @@ body {
   .pcentered {
     padding-left: 13%;
   }
+  .grid2 {
+    display: block;
+  }
   .grid3 {
     display: grid;
     grid-template-columns: 5% 10% auto;
     grid-gap: 1.5rem;
   }
 
+  .print-inline{
+    display: inline-flex;
+  }
+
+  .float-right{
+    float: right;
+  }
+  
   .pr1 {
     padding-right: 1em;
   }
   .printShow {
-    display: block;
+    display: block !important;
   }
   .ptoponehalf {
     padding-top: 0.5rem;
   }
   .printHide {
-    display: none;
+    display: none !important;
+  }
+  .header {
+    padding-top: 0.5em;
+  }
+  .career {
+    width: 100%;
+  }
+  .link.inline-flex {
+    margin-bottom: 0.5em;
   }
 }

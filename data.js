@@ -1,8 +1,8 @@
 var resumeData = {
   about: {
-    name: 'Kartik',
+    name: 'Kartik Maurya',
     email: 'mauryakartik@gmail.com',
-    designation: 'Software Engineer',
+    designation: 'Senior Software Engineer (Team Lead)',
     currentCity: 'India',
     resumeLink: 'https://9kartik.github.io/resume',
     imgurl:
@@ -113,12 +113,24 @@ var resumeData = {
         duration: '2023 November - Present',
         allprojects: [
           {
-            project :'Frontend Migration',
-            content : 'Leading a team of 4 frontend engineers. Architecting the UI Migration of an old product from jQuery + express based code to Angular + nest based code (involves migration from AWS to GCP), along with support of Server Side Rendering and building a first party component library (along with design guidelines). Additionally utilised github actions with self hosted runners to host our static storybooks for cross team visibility. Introduced deferrable views in frontend to reduce LCP by upto 70%, this improved CLS score as well. Also introduced eslint rules for faster PR reviews.'
+            project: 'Frontend Migration (Comparably)',
+            content: 'Leading a team of 4 frontend engineers in architecting the UI Migration of the Comparably website companies page from a jQuery + Express based tech stack to Angular 17 + NestJS. This involved a cloud migration from AWS to GCP, implementing Server Side Rendering (SSR), and building a first-party component library. Maintained SEO integrity throughout the process. Additionally, introduced deferrable views in the frontend, reducing LCP by up to 70% and improving CLS scores. Successfully reduced site TTFB by 300ms. Orchestrated the entire engineering workflow, including setting up CI/CD pipelines, error logging, and comprehensive analytics instrumentation.'
           },
           {
-            project : 'On-page SEO optimisations',
-            content : 'Led the improvement the SEO of an acquired product using strategies like sitemap segregation, redirect fixes and js resource size reduction (by 30%) using minification. Reducing non-indexed pages by 4M in 3months. Increased indexed pages by 70%. Identified threat vectors on our public page using JA3/JA4+ fingerprints to prevent 1.2M/day scraping attacks.'
+            project: 'Integrated Recruitment Product',
+            content: 'Working on an integrated recruitment platform catering to agentic searches. This is using NextJS.'
+          },
+          {
+            project: 'AI Emailer Project',
+            content: 'Collaborated with the platform team to deliver an AI-driven emailer. Architected a strategy pattern to decouple the platform, allowing for easier multi-platform adoption. Solved backend coupling issues by implementing HTML event projection through web components for email notifications. Achievement: Surpassed expected outbound email usage by 30% in the first month.'
+          },
+          {
+            project: 'On-page SEO & Security',
+            content: 'Improved SEO for acquired products through sitemap segregation, redirect fixes, and reducing JS resource sizes by 30%. Increased indexed pages by 70% (4M pages) in 3 months. Implemented security measures to prevent 1.2M daily scraping attacks using JA3/JA4+ fingerprints.'
+          },
+          {
+            project: 'Developer Productivity & CI',
+            content: 'Enhanced CI pipeline efficiency by identifying and fixing flaky Jasmine-based unit tests. Reduced CI build time from 25 minutes to 8 minutes by. Introduced custom ESLint rules to accelerate PR reviews.'
           }
         ]
       },
@@ -128,16 +140,20 @@ var resumeData = {
         duration: '2020 May-2023 October',
         allprojects: [
           {
-            project : 'Jira Service Management',
-            content : 'Contributed to an experimental drag and drop site builder, owned the image element which involved positioning, resizing, and optimised image upload. Contributed to the Topics feature under JSM Help Center which increased our DAU by 20%, this involved utilising relay (a graphql client library) to provide a WCAG Level AA drag-and-drop interface. There was a need of syncing the backend generated graphql schema with our frontend repo - so I built a periodic bitbucket pipeline which used a bitbucket bot to pull up schema from the backend hosted schema onto our frontend repo. On the operational side • improved homepage TTI by 30% by making the frontend assets async. As a part of Build Engineering - Fixed a long failing automation testing CI build pipeline by limiting the core size to 80% which reduced overconsumption of the CPU and also reduced the docker container size from 20GB to 16GB.'
+            project: 'Jira Service Management (Help Center)',
+            content: 'Contributed to the "Topics" and "External Resources" features, significantly improving content discoverability for B2B clients. Utilized Relay (GraphQL client) to provide a WCAG Level AA compliant interface. Built a periodic Bitbucket pipeline using a bot to sync backend-generated GraphQL schemas with the frontend repository. On the operational side, improved homepage TTI by 30% by making frontend assets asynchronous.'
           },
           {
-            project :'Frontend Security',
-            content : 'Architected XSS(Cross Site Script) vulnerbility reporting on our Opsgenie website via enabling Content Security Policy on Global Edge, enabling sentry to track all such violations. Also helped prevent a spam attack on our login page because of a vulnerable recaptcha engine, I upgraded the recaptcha engine to have a more severe score based recaptcha (this blocked the 100k daily active attacks). I worked on React, AngularJS and Vue while working in the Opsgenie team.'
+            project: 'Frontend Security & CSP (Opsgenie)',
+            content: 'Architected XSS vulnerability reporting for the Opsgenie website by enabling Content Security Policy (CSP) on Global Edge. To avoid a TTI hit from AWS Lambda@Edge, implemented a periodically generated hash attachment for inline scripts. Integrated Sentry to track violations and reported metrics to Splunk dashboards. Also mitigated a massive spam attack by upgrading to ReCAPTCHA v2 Enterprise, implementing risk-score-based validation.'
           },
           {
-            project : 'Developer Productivity',
-            content : 'Fixed 250+ mid urgency alerts for the third party translations by updating our webpack translation plugin and within 3 weeks we were able to translate 98% of the third party messages. Enabled targetted storybooks, since one storybook build failure was causing the whole local storybook build to fail, wrote a storybook plugin to so that one could run isolated stories which also helped improve the build time by 80%.'
+            project: 'Experimental Site Builder',
+            content: 'Developed a re-usable, high-performance image element for a drag-and-drop site builder. Leveraged React Context for element-level state management and advanced CSS for seamless image manipulation (positioning, resizing). Optimized media storage by requesting on-demand resized images from media servers, reducing overall bandwidth consumption.'
+          },
+          {
+            project: 'Build Engineering & Productivity',
+            content: 'Fixed a long-failing automation CI pipeline by optimizing core utilization to 80%, preventing CPU overconsumption. Reduced Docker container sizes from 20GB to 16GB. Resolved 250+ mid-urgency translation alerts by updating the Webpack translation plugin, achieving 98% message coverage. Developed a Storybook plugin to allow isolated story builds, improving build times by 80%.'
           }
         ]
       },
@@ -244,6 +260,14 @@ var resumeData = {
       },
       { 
         name: 'Github actions',
+        rating: 3,
+      },
+      {
+        name: 'LLM Prompt Engineering (Claude, Gemini)',
+        rating: 3,
+      },
+      {
+        name: 'Agentic Search & Workflows',
         rating: 3,
       },
       {
