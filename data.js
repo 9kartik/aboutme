@@ -2,7 +2,7 @@ var resumeData = {
   about: {
     name: 'Kartik Maurya',
     email: 'mauryakartik@gmail.com',
-    designation: 'Senior Software Engineer (Team Lead)',
+    designation: 'Principal Software Engineer',
     currentCity: 'India',
     resumeLink: 'https://9kartik.github.io/resume',
     imgurl:
@@ -108,7 +108,7 @@ var resumeData = {
     heading: 'Work Experience',
     topics: [
       {
-        designation: 'Senior Frontend Engineer (Team Lead)',
+        designation: 'Principal Software Engineer',
         companyName: 'ZoomInfo',
         duration: '2023 November - Present',
         allprojects: [
