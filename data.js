@@ -15,7 +15,7 @@ var resumeData = {
       },
       {
         property: 'og:description',
-        value: 'Kartik Maurya (Senior Software Engineer)',
+        value: 'Kartik Maurya (Principal Software Engineer)',
       },
       {
         property: 'og:url',
@@ -113,24 +113,28 @@ var resumeData = {
         duration: '2023 November - Present',
         allprojects: [
           {
+            project: 'Vortex',
+            content: 'Building and architecting a stealth application which serves as a job search and a community career website. This is built as an SSR Hybrid application using NextJS and utilising internal tailwind theming. This is our B2C and B2B website. Taking care of CI/CD, LLD, Observability, analytics and structure.'
+          },
+          {
             project: 'Frontend Migration (Comparably)',
-            content: 'Leading a team of 4 frontend engineers in architecting the UI Migration of the Comparably website companies page from a jQuery + Express based tech stack to Angular 17 + NestJS. This involved a cloud migration from AWS to GCP, implementing Server Side Rendering (SSR), and building a first-party component library. Maintained SEO integrity throughout the process. Additionally, introduced deferrable views in the frontend, reducing LCP by up to 70% and improving CLS scores. Successfully reduced site TTFB by 300ms. Orchestrated the entire engineering workflow, including setting up CI/CD pipelines, error logging, and comprehensive analytics instrumentation.'
+            content: 'Leading an engineering squad of 4 frontend developers in driving end-to-end architecture and UI migration of the Comparably companies platform from jQuery/Express to Angular 17 and NestJS microservices. Executed AWS-to-GCP cloud migration with Server-Side Rendering (SSR), built modular component libraries, and enforced design patterns. Reduced LCP by up to 70% and CLS scores via deferrable views, optimized TTFB by 300ms, and orchestrated CI/CD pipelines, error tracking, and analytics instrumentation while preserving SEO integrity.'
           },
           {
             project: 'Integrated Recruitment Product',
-            content: 'Working on an integrated recruitment platform catering to agentic searches. This is using NextJS.'
+            content: 'Architecting and delivering full-stack reactive features using NextJS for an integrated recruitment application supporting low-latency, agentic search workflows.'
           },
           {
             project: 'AI Emailer Project',
-            content: 'Collaborated with the platform team to deliver an AI-driven emailer. Architected a strategy pattern to decouple the platform, allowing for easier multi-platform adoption. Solved backend coupling issues by implementing HTML event projection through web components for email notifications. Achievement: Surpassed expected outbound email usage by 30% in the first month.'
+            content: 'Partnered with platform engineering to design an event-driven AI emailer. Utilized Strategy patterns to decouple core logic for multi-platform consumption and applied HTML event projection via Web Components to eliminate backend coupling—resulting in outbound email volume exceeding initial expectations by 30% in month one and exponential growth after that.'
           },
           {
             project: 'On-page SEO & Security',
-            content: 'Improved SEO for acquired products through sitemap segregation, redirect fixes, and reducing JS resource sizes by 30%. Increased indexed pages by 70% (4M pages) in 3 months. Implemented security measures to prevent 1.2M daily scraping attacks using JA3/JA4+ fingerprints.'
+            content: 'Led platform security and performance initiatives, implementing JA3/JA4+ fingerprint mitigation to defeat 1.2M daily scraping attacks. Optimized SEO through sitemap segregation, redirect fixes, and cutting JS bundle size by 30%, driving a 70% increase (4M pages) in indexed pages within 3 months.'
           },
           {
             project: 'Developer Productivity & CI',
-            content: 'Enhanced CI pipeline efficiency by identifying and fixing flaky Jasmine-based unit tests. Reduced CI build time from 25 minutes to 8 minutes by. Introduced custom ESLint rules to accelerate PR reviews.'
+            content: 'Streamlined build engineering processes and development velocity by resolving Jasmine test flakiness, reducing CI build times from 25 to 8 minutes, and introducing custom ESLint rules to accelerate PR code reviews.'
           }
         ]
       },
@@ -145,15 +149,15 @@ var resumeData = {
           },
           {
             project: 'Frontend Security & CSP (Opsgenie)',
-            content: 'Architected XSS vulnerability reporting for the Opsgenie website by enabling Content Security Policy (CSP) on Global Edge. To avoid a TTI hit from AWS Lambda@Edge, implemented a periodically generated hash attachment for inline scripts. Integrated Sentry to track violations and reported metrics to Splunk dashboards. Also mitigated a massive spam attack by upgrading to ReCAPTCHA v2 Enterprise, implementing risk-score-based validation.'
+            content: 'Architected edge-level security and XSS vulnerability reporting for Opsgenie via Content Security Policy (CSP) on Global Edge. Prevented TTI degradation on AWS Lambda@Edge using dynamically generated hash attachments for inline scripts. Integrated Sentry error monitoring into Splunk dashboards and mitigated spam attacks by implementing ReCAPTCHA v2 Enterprise with risk-score validation.'
           },
           {
             project: 'Experimental Site Builder',
-            content: 'Developed a re-usable, high-performance image element for a drag-and-drop site builder. Leveraged React Context for element-level state management and advanced CSS for seamless image manipulation (positioning, resizing). Optimized media storage by requesting on-demand resized images from media servers, reducing overall bandwidth consumption.'
+            content: 'Engineered reusable, high-performance React UI components for drag-and-drop site creation tools. Implemented React Context for isolated component-level state management and reduced media server bandwidth consumption by serving dynamically resized assets on demand.'
           },
           {
             project: 'Build Engineering & Productivity',
-            content: 'Fixed a long-failing automation CI pipeline by optimizing core utilization to 80%, preventing CPU overconsumption. Reduced Docker container sizes from 20GB to 16GB. Resolved 250+ mid-urgency translation alerts by updating the Webpack translation plugin, achieving 98% message coverage. Developed a Storybook plugin to allow isolated story builds, improving build times by 80%.'
+            content: 'Optimized build infrastructure pipelines by capping CPU core consumption at 80% to resolve automation bottlenecks. Reduced Docker container image sizes from 20GB to 16GB, updated Webpack localization plugins to achieve 98% message coverage across 250+ translation alerts, and authored a custom Storybook plugin to cut isolated build times by 80%.'
           }
         ]
       },
@@ -164,7 +168,7 @@ var resumeData = {
         allprojects: [
           {
             project: 'Site Revamp to React',
-            content: `Migrating our search results page from shtml and javascript to React. Bridging the backend and frontend gap. Mentoring the team through the business logic, so it could be implemented better on NodeJS and the UI layer.`,
+            content: `Architected the core flight search and booking flows from legacy shtml/JS to React and NodeJS. Coached the engineering team on implementing complex domain business logic cleanly across NodeJS services and the frontend layer.`,
             technologies: [
               {
                 name: 'ReactJS',
@@ -177,14 +181,14 @@ var resumeData = {
           {
             project: 'In house Dynamic Configuration Loading',
             content:
-              'Reduced a one day deployment procedure to a 10min procedure utlizing the Amazon S3 buckets',
+              'Streamlined operational delivery workflows by replacing a 1-day deployment process with a 10-minute automated pipeline using Amazon S3 bucket configurations.',
           },
 
           {
             project: 'Embedded Results',
             url: '',
             content:
-              'Existing expanded view was obstructive to the user, as users had to scroll through to see similar flights and combinations. Improved the UI to give the choice to pair flights. This caused a 3% increased customer traction on the Search Results Page.',
+              'Redesigned flight selection and pairing workflows to eliminate UI obstruction and scrolling friction. Delivered an interactive search experience that increased customer conversion on the Search Results Page by 3%.',
             technologies: [
               {
                 name: 'javascript',
@@ -209,7 +213,7 @@ var resumeData = {
         allprojects: [
           {
             project: 'Linesight [Border Security]',
-            content: `Risk analysis using machine learning and related entities. I built the interface using mainly AngularJS , utilizing directives to create a lot of reusable components. It involved user profile based access. Interacting with graph db for the related data and plotting it using keylines and AngularJS - Linesight mongodb aggregation setup [using RestHeart]. This became a selling point for the Singapore Police Department.`,
+            content: `Developed real-time risk-analysis and intelligence interfaces using AngularJS, KeyLines graph visualizations, and RESTHeart/MongoDB aggregation layer. Built modular directive-based components with profile-based access control; served as a key engineering showcase adopted by the Singapore Police Department.`,
             technologies: [
               {
                 name: 'AngularJS',
